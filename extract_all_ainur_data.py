@@ -19,7 +19,7 @@ BASE_URL = "https://web.ainur.app/proxy"
 COMPANY_ID = "58c872aa3ce7d5fc688b49bd"
 TIMEZONE = "7200"
 SESSION_COOKIE = "s%3AP7kOlTJz7HDSMilUU2ZW4lyGKQc6ZEIm.PiVrOH1qUMyYIqxNPeEQupxlHccJedPkIHoKMwookiQ"
-OUTPUT_DIR = "/Users/andriiliudvichuk/Projects/ainur-pos-clone/extracted_data"
+OUTPUT_DIR = "C:/Users/HDUser/ainur-pos-clone/extracted_data"
 
 HEADERS = {
     'accept': 'application/json',

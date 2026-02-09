@@ -1,0 +1,1768 @@
+{
+  "Purchase": {
+    "url": "https://web.ainur.app/card/docs/purchase",
+    "formFields": [
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "Product search",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "subject",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "textarea",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "button",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "apply-btn"
+      },
+      {
+        "type": "select-one",
+        "name": "month",
+        "placeholder": "",
+        "id": "",
+        "class": "month"
+      },
+      {
+        "type": "select-one",
+        "name": "year",
+        "placeholder": "",
+        "id": "",
+        "class": "year"
+      },
+      {
+        "type": "range",
+        "name": "hour",
+        "placeholder": "",
+        "id": "",
+        "class": "hour-range"
+      },
+      {
+        "type": "range",
+        "name": "minute",
+        "placeholder": "",
+        "id": "",
+        "class": "minute-range"
+      }
+    ],
+    "labels": [
+      "Show popup notifications",
+      "Show number of notifications",
+      "product",
+      "Service",
+      "set",
+      "Paid",
+      "Order",
+      "Supplier",
+      "Store",
+      "Subject",
+      "Message",
+      "Hour:",
+      "Minute:"
+    ],
+    "buttons": [
+      "Send"
+    ]
+  },
+  "Return sale": {
+    "url": "https://web.ainur.app/card/docs/return-sell",
+    "formFields": [
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "Product search",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "subject",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "textarea",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "button",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "apply-btn"
+      },
+      {
+        "type": "select-one",
+        "name": "month",
+        "placeholder": "",
+        "id": "",
+        "class": "month"
+      },
+      {
+        "type": "select-one",
+        "name": "year",
+        "placeholder": "",
+        "id": "",
+        "class": "year"
+      },
+      {
+        "type": "range",
+        "name": "hour",
+        "placeholder": "",
+        "id": "",
+        "class": "hour-range"
+      },
+      {
+        "type": "range",
+        "name": "minute",
+        "placeholder": "",
+        "id": "",
+        "class": "minute-range"
+      }
+    ],
+    "labels": [
+      "Show popup notifications",
+      "Show number of notifications",
+      "product",
+      "Service",
+      "set",
+      "Paid",
+      "Order",
+      "Client",
+      "Store",
+      "Subject",
+      "Message",
+      "Hour:",
+      "Minute:"
+    ],
+    "buttons": [
+      "Send"
+    ]
+  },
+  "Return purchase": {
+    "url": "https://web.ainur.app/card/docs/return-purchase",
+    "formFields": [
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "Product search",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "subject",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "textarea",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "button",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "apply-btn"
+      },
+      {
+        "type": "select-one",
+        "name": "month",
+        "placeholder": "",
+        "id": "",
+        "class": "month"
+      },
+      {
+        "type": "select-one",
+        "name": "year",
+        "placeholder": "",
+        "id": "",
+        "class": "year"
+      },
+      {
+        "type": "range",
+        "name": "hour",
+        "placeholder": "",
+        "id": "",
+        "class": "hour-range"
+      },
+      {
+        "type": "range",
+        "name": "minute",
+        "placeholder": "",
+        "id": "",
+        "class": "minute-range"
+      }
+    ],
+    "labels": [
+      "Show popup notifications",
+      "Show number of notifications",
+      "product",
+      "Service",
+      "set",
+      "Paid",
+      "Order",
+      "Store",
+      "Supplier",
+      "Subject",
+      "Message",
+      "Hour:",
+      "Minute:"
+    ],
+    "buttons": [
+      "Send"
+    ]
+  },
+  "Stocktake": {
+    "url": "https://web.ainur.app/card/docs/changes-inventory",
+    "formFields": [
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "Product search",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "subject",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "textarea",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      }
+    ],
+    "labels": [
+      "Show popup notifications",
+      "Show number of notifications",
+      "product",
+      "Service",
+      "set",
+      "Unpaid",
+      "Order",
+      "Store",
+      "Subject",
+      "Message"
+    ],
+    "buttons": [
+      "Send"
+    ]
+  },
+  "Stock adjustment": {
+    "url": "https://web.ainur.app/card/docs/changes-in",
+    "formFields": [
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "Product search",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "subject",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "textarea",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "button",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "apply-btn"
+      },
+      {
+        "type": "select-one",
+        "name": "month",
+        "placeholder": "",
+        "id": "",
+        "class": "month"
+      },
+      {
+        "type": "select-one",
+        "name": "year",
+        "placeholder": "",
+        "id": "",
+        "class": "year"
+      },
+      {
+        "type": "range",
+        "name": "hour",
+        "placeholder": "",
+        "id": "",
+        "class": "hour-range"
+      },
+      {
+        "type": "range",
+        "name": "minute",
+        "placeholder": "",
+        "id": "",
+        "class": "minute-range"
+      }
+    ],
+    "labels": [
+      "Show popup notifications",
+      "Show number of notifications",
+      "product",
+      "Service",
+      "set",
+      "Paid",
+      "Order",
+      "Store",
+      "Subject",
+      "Message",
+      "Hour:",
+      "Minute:"
+    ],
+    "buttons": [
+      "Send"
+    ]
+  },
+  "Write-off": {
+    "url": "https://web.ainur.app/card/docs/changes-out",
+    "formFields": [
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "Product search",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "subject",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "textarea",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "button",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "apply-btn"
+      },
+      {
+        "type": "select-one",
+        "name": "month",
+        "placeholder": "",
+        "id": "",
+        "class": "month"
+      },
+      {
+        "type": "select-one",
+        "name": "year",
+        "placeholder": "",
+        "id": "",
+        "class": "year"
+      },
+      {
+        "type": "range",
+        "name": "hour",
+        "placeholder": "",
+        "id": "",
+        "class": "hour-range"
+      },
+      {
+        "type": "range",
+        "name": "minute",
+        "placeholder": "",
+        "id": "",
+        "class": "minute-range"
+      }
+    ],
+    "labels": [
+      "Show popup notifications",
+      "Show number of notifications",
+      "product",
+      "Service",
+      "set",
+      "Paid",
+      "Order",
+      "Store",
+      "Subject",
+      "Message",
+      "Hour:",
+      "Minute:"
+    ],
+    "buttons": [
+      "Send"
+    ]
+  },
+  "Movement": {
+    "url": "https://web.ainur.app/card/docs/moving",
+    "formFields": [
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "Product search",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": ""
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "number",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty ng-valid-min"
+      },
+      {
+        "type": "select-one",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ui dropdown ng-pristine ng-untouched ng-valid ng-not-empty"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "hidden"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "search"
+      },
+      {
+        "type": "text",
+        "name": "subject",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "textarea",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "placeholder": "",
+        "id": "",
+        "class": "ng-pristine ng-untouched ng-valid ng-empty"
+      },
+      {
+        "type": "button",
+        "name": "",
+        "placeholder": "",
+        "id": "",
+        "class": "apply-btn"
+      },
+      {
+        "type": "select-one",
+        "name": "month",
+        "placeholder": "",
+        "id": "",
+        "class": "month"
+      },
+      {
+        "type": "select-one",
+        "name": "year",
+        "placeholder": "",
+        "id": "",
+        "class": "year"
+      },
+      {
+        "type": "range",
+        "name": "hour",
+        "placeholder": "",
+        "id": "",
+        "class": "hour-range"
+      },
+      {
+        "type": "range",
+        "name": "minute",
+        "placeholder": "",
+        "id": "",
+        "class": "minute-range"
+      }
+    ],
+    "labels": [
+      "Show popup notifications",
+      "Show number of notifications",
+      "product",
+      "Service",
+      "set",
+      "Paid",
+      "Order",
+      "Store (from)",
+      "Store (to)",
+      "Subject",
+      "Message",
+      "Hour:",
+      "Minute:"
+    ],
+    "buttons": [
+      "Send"
+    ]
+  }
+}

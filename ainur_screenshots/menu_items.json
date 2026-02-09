@@ -1,0 +1,237 @@
+[
+  {
+    "text": "закрыть",
+    "href": null,
+    "class": "close"
+  },
+  {
+    "text": "закрыть",
+    "href": null,
+    "class": "close"
+  },
+  {
+    "text": "Point of sale",
+    "href": "/wpapp/",
+    "class": "ui blue button"
+  },
+  {
+    "text": "Create",
+    "href": null,
+    "class": "ui fluid button"
+  },
+  {
+    "text": "Load more",
+    "href": null,
+    "class": "load-more"
+  },
+  {
+    "text": "Profile",
+    "href": "/card/profile/58c872aa3ce7d5fc688b49bc",
+    "class": "item"
+  },
+  {
+    "text": "Payment",
+    "href": "/payment",
+    "class": "item"
+  },
+  {
+    "text": "sign out",
+    "href": null,
+    "class": "item"
+  },
+  {
+    "text": "Sale order",
+    "href": "/card/docs/sell",
+    "class": "item"
+  },
+  {
+    "text": "Purchase",
+    "href": "/card/docs/purchase",
+    "class": "item"
+  },
+  {
+    "text": "Return sale",
+    "href": "/card/docs/return-sell",
+    "class": "item"
+  },
+  {
+    "text": "Return purchase",
+    "href": "/card/docs/return-purchase",
+    "class": "item"
+  },
+  {
+    "text": "Stocktake",
+    "href": "/card/docs/changes-inventory",
+    "class": "item"
+  },
+  {
+    "text": "Stock adjustment",
+    "href": "/card/docs/changes-in",
+    "class": "item"
+  },
+  {
+    "text": "Write-off",
+    "href": "/card/docs/changes-out",
+    "class": "item"
+  },
+  {
+    "text": "Movement",
+    "href": "/card/docs/moving",
+    "class": "item"
+  },
+  {
+    "text": "Recieved",
+    "href": "/card/pay/cash-parish",
+    "class": "item"
+  },
+  {
+    "text": "Spent",
+    "href": "/card/pay/cash-outflow",
+    "class": "item"
+  },
+  {
+    "text": "Transfer",
+    "href": "/card/pay/cash-transfer",
+    "class": "item"
+  },
+  {
+    "text": "Dashboard",
+    "href": "/",
+    "class": "item active"
+  },
+  {
+    "text": "Catalog",
+    "href": "/card/catalog/list",
+    "class": "item"
+  },
+  {
+    "text": "Shifts",
+    "href": "authenticated.card.register.shift",
+    "class": "item "
+  },
+  {
+    "text": "Registers",
+    "href": "authenticated.card.register.cash",
+    "class": "item "
+  },
+  {
+    "text": "Download POS",
+    "href": "https://ainur-static.s3.eu-central-1.amazonaws.com/AinurPOS+Setup+Latest.exe",
+    "class": "item active blue"
+  },
+  {
+    "text": "Orders",
+    "href": "/card/journal",
+    "class": "item"
+  },
+  {
+    "text": "Transactions",
+    "href": "/card/money",
+    "class": "item"
+  },
+  {
+    "text": "Reports",
+    "href": "/card/reports",
+    "class": "item"
+  },
+  {
+    "text": "Suppliers",
+    "href": "authenticated.card.supplier",
+    "class": "item "
+  },
+  {
+    "text": "Customers",
+    "href": "authenticated.card.clients",
+    "class": "item "
+  },
+  {
+    "text": "Settings",
+    "href": "authenticated.card.company.settings.main",
+    "class": "item "
+  },
+  {
+    "text": "Employees",
+    "href": "authenticated.card.company.staff",
+    "class": "item "
+  },
+  {
+    "text": "Stores",
+    "href": "authenticated.card.company.stores",
+    "class": "item "
+  },
+  {
+    "text": "Accounts",
+    "href": "authenticated.card.company.accounts",
+    "class": "item "
+  },
+  {
+    "text": "Loyalty",
+    "href": "authenticated.card.company.loyalty.bonus",
+    "class": "item "
+  },
+  {
+    "text": "Printing forms",
+    "href": "/plugin/print-templates",
+    "class": "item"
+  },
+  {
+    "text": "eStore",
+    "href": "authenticated.card.ecommerce.theme",
+    "class": "item "
+  },
+  {
+    "text": "eStore",
+    "href": "/card/ecommerce-admin",
+    "class": "item"
+  },
+  {
+    "text": "Integration",
+    "href": "/card/integrations/",
+    "class": "item"
+  },
+  {
+    "text": "Billing",
+    "href": "/payment",
+    "class": "item"
+  },
+  {
+    "text": "Trash",
+    "href": "/card/trash/",
+    "class": "item trash"
+  },
+  {
+    "text": "Knowledge base",
+    "href": "https://help.ainurpos.com",
+    "class": "item"
+  },
+  {
+    "text": "Affiliate Program",
+    "href": "mailto:partners@cloudshop.ru?subject=Хочу%20стать%20партнером%20CloudShop&body=Здравствуйте!%0A%0AЯ%20заинтересован%20в%20партнёрстве%20с%20CloudShop%20и%20хотел%20бы%20узнать%20больше%20о%20возможностях%20сотрудничества.%0AПожалуйста,%20пришлите%20подробности%20и%20условия%20партнёрской%20программы.%0A%0AС%20уважением,%0A[Ваше%20имя]",
+    "class": "item"
+  },
+  {
+    "text": "46 items\n            with a cost of 0 грн",
+    "href": null,
+    "class": ""
+  },
+  {
+    "text": "how to change the cost",
+    "href": "/card/support/5",
+    "class": ""
+  },
+  {
+    "text": "28 items\n            with a stock less than 0",
+    "href": null,
+    "class": ""
+  },
+  {
+    "text": "1 expired items.",
+    "href": "#",
+    "class": ""
+  },
+  {
+    "text": "Send",
+    "href": null,
+    "class": "ui green button"
+  }
+]

@@ -1,0 +1,1868 @@
+{
+  "Orders": {
+    "url": "https://web.ainur.app/card/journal",
+    "mainContent": [
+      "Orders",
+      "15\n      \n      \n      Notifications\n      \n      Settings",
+      "Notifications",
+      "Settings",
+      "Transactions",
+      "9 february",
+      "8 february",
+      "loading",
+      "Feedback",
+      "Attention",
+      "Attention"
+    ],
+    "buttons": [
+      "Send"
+    ],
+    "subItems": [
+      {
+        "text": "Point of sale",
+        "href": "/wpapp/"
+      },
+      {
+        "text": "Profile",
+        "href": "/card/profile/58c872aa3ce7d5fc688b49bc"
+      },
+      {
+        "text": "Payment",
+        "href": "/payment"
+      },
+      {
+        "text": "Sale order",
+        "href": "/card/docs/sell"
+      },
+      {
+        "text": "Purchase",
+        "href": "/card/docs/purchase"
+      },
+      {
+        "text": "Return sale",
+        "href": "/card/docs/return-sell"
+      },
+      {
+        "text": "Return purchase",
+        "href": "/card/docs/return-purchase"
+      },
+      {
+        "text": "Stocktake",
+        "href": "/card/docs/changes-inventory"
+      },
+      {
+        "text": "Stock adjustment",
+        "href": "/card/docs/changes-in"
+      },
+      {
+        "text": "Write-off",
+        "href": "/card/docs/changes-out"
+      },
+      {
+        "text": "Movement",
+        "href": "/card/docs/moving"
+      },
+      {
+        "text": "Recieved",
+        "href": "/card/pay/cash-parish"
+      },
+      {
+        "text": "Spent",
+        "href": "/card/pay/cash-outflow"
+      },
+      {
+        "text": "Transfer",
+        "href": "/card/pay/cash-transfer"
+      },
+      {
+        "text": "Dashboard",
+        "href": "/"
+      },
+      {
+        "text": "Catalog",
+        "href": "/card/catalog/list"
+      },
+      {
+        "text": "Shifts",
+        "href": "authenticated.card.register.shift"
+      },
+      {
+        "text": "Registers",
+        "href": "authenticated.card.register.cash"
+      },
+      {
+        "text": "Download POS",
+        "href": "https://ainur-static.s3.eu-central-1.amazonaws.com/AinurPOS+Setup+Latest.exe"
+      },
+      {
+        "text": "Orders",
+        "href": "/card/journal"
+      },
+      {
+        "text": "Transactions",
+        "href": "/card/money"
+      },
+      {
+        "text": "Reports",
+        "href": "/card/reports"
+      },
+      {
+        "text": "Suppliers",
+        "href": "authenticated.card.supplier"
+      },
+      {
+        "text": "Customers",
+        "href": "authenticated.card.clients"
+      },
+      {
+        "text": "Settings",
+        "href": "authenticated.card.company.settings.main"
+      },
+      {
+        "text": "Employees",
+        "href": "authenticated.card.company.staff"
+      },
+      {
+        "text": "Stores",
+        "href": "authenticated.card.company.stores"
+      },
+      {
+        "text": "Accounts",
+        "href": "authenticated.card.company.accounts"
+      },
+      {
+        "text": "Loyalty",
+        "href": "authenticated.card.company.loyalty.bonus"
+      },
+      {
+        "text": "Printing forms",
+        "href": "/plugin/print-templates"
+      },
+      {
+        "text": "eStore",
+        "href": "authenticated.card.ecommerce.theme"
+      },
+      {
+        "text": "eStore",
+        "href": "/card/ecommerce-admin"
+      },
+      {
+        "text": "Integration",
+        "href": "/card/integrations/"
+      },
+      {
+        "text": "Billing",
+        "href": "/payment"
+      },
+      {
+        "text": "Trash",
+        "href": "/card/trash/"
+      },
+      {
+        "text": "Knowledge base",
+        "href": "https://help.ainurpos.com"
+      },
+      {
+        "text": "Affiliate Program",
+        "href": "mailto:partners@cloudshop.ru?subject=Хочу%20стать%20партнером%20CloudShop&body=Здравствуйте!%0A%0AЯ%20заинтересован%20в%20партнёрстве%20с%20CloudShop%20и%20хотел%20бы%20узнать%20больше%20о%20возможностях%20сотрудничества.%0AПожалуйста,%20пришлите%20подробности%20и%20условия%20партнёрской%20программы.%0A%0AС%20уважением,%0A[Ваше%20имя]"
+      },
+      {
+        "text": "Sale order #13974",
+        "href": "/card/journal/journal/698a2f0c8475f9b6270e9f65"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #13973",
+        "href": "/card/journal/journal/698a2c88a112477d96013241"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #16720",
+        "href": "/card/journal/journal/698a23fcdbcdcec7560fe8ab"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16719",
+        "href": "/card/journal/journal/698a2259b42d7f29bf0dc97d"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16718",
+        "href": "/card/journal/journal/698a221fd12d2eea960571fa"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #8198",
+        "href": "/card/journal/journal/698a163d557599a63a043faa"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #8197",
+        "href": "/card/journal/journal/698a15dde96467c5a40c8b8c"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #8196",
+        "href": "/card/journal/journal/698a15a6aeea8dc60703fb28"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #16717",
+        "href": "/card/journal/journal/698a0d74c1b1324071045211"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16716",
+        "href": "/card/journal/journal/698a0b3af8192a5c6b0f3548"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #8195",
+        "href": "/card/journal/journal/698a0908c30091596d08efa4"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #13972",
+        "href": "/card/journal/journal/698a07186210234ba500dcf2"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #16715",
+        "href": "/card/journal/journal/698a0178e430e42702089268"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16714",
+        "href": "/card/journal/journal/6989fdd24dcedc0d0a0094e0"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #8194",
+        "href": "/card/journal/journal/6989fb7fb73cca4396015fa0"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #8193",
+        "href": "/card/journal/journal/6989f96627bd54520e0ade78"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #8192",
+        "href": "/card/journal/journal/6989f78e075214c5bf0fce94"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #8191",
+        "href": "/card/journal/journal/6989f75e59710df91101661a"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #13971",
+        "href": "/card/journal/journal/6989f4c369865b90650af6fa"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #16713",
+        "href": "/card/journal/journal/6989f2a57806320718014061"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16712",
+        "href": "/card/journal/journal/6989f08310be4ba72c035da9"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #13970",
+        "href": "/card/journal/journal/6989ef9f4140b7a44406215a"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #13969",
+        "href": "/card/journal/journal/6989ef52197283496408f2f0"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #13968",
+        "href": "/card/journal/journal/6989ed3249b6618dfc06a90d"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #16711",
+        "href": "/card/journal/journal/6989ec427bdd2b2a57060360"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #13967",
+        "href": "/card/journal/journal/6989ead6023f8ce3fa0a7aec"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #16710",
+        "href": "/card/journal/journal/6989e9efc7bdf253850bc426"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16709",
+        "href": "/card/journal/journal/6989e1022e12b6ebfb08b5fd"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #8190",
+        "href": "/card/journal/journal/6989dfd5d959b33b8c06630b"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #8189",
+        "href": "/card/journal/journal/6989dfc7977f8e2fd80bb796"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #16708",
+        "href": "/card/journal/journal/6989d89b6c9eda52400b2ab1"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16707",
+        "href": "/card/journal/journal/6989d64623f45333c20b94f6"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #8188",
+        "href": "/card/journal/journal/6989d5dbf17f65d6100a296f"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #8187",
+        "href": "/card/journal/journal/6989d5808fb8a4e42f0f89b2"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #16706",
+        "href": "/card/journal/journal/6989d4c70954cc2cd0006739"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16705",
+        "href": "/card/journal/journal/6989d2c4260d4a08720d34ed"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16704",
+        "href": "/card/journal/journal/6989d255d5e46b845809905b"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #8186",
+        "href": "/card/journal/journal/6989c945b3bf2781cc083f09"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #8185",
+        "href": "/card/journal/journal/6989c84b8476f622880b796f"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #16703",
+        "href": "/card/journal/journal/6989c66a4da96d537806b3a2"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #13966",
+        "href": "/card/journal/journal/6989c54bce6fec0d3709dfba"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #8184",
+        "href": "/card/journal/journal/6989c3e9e23d6d2af70477cb"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      },
+      {
+        "text": "Sale order #16702",
+        "href": "/card/journal/journal/6989c362a04e2b703a0d5c76"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #13965",
+        "href": "/card/journal/journal/6989bdc461b34bdc2b05ebb0"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #16701",
+        "href": "/card/journal/journal/6989ba38522fcd4411024143"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16700",
+        "href": "/card/journal/journal/6989b9c8e10dab67180cb79b"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #13964",
+        "href": "/card/journal/journal/6989b666b0311a245b0211c6"
+      },
+      {
+        "text": "Ліліана Модлінська",
+        "href": "/card/profile/68d22dc8401788736c03803e"
+      },
+      {
+        "text": "Sale order #16699",
+        "href": "/card/journal/journal/6989a787c56a0b7e340be51e"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16698",
+        "href": "/card/journal/journal/6989a7203c6402d9b60d7279"
+      },
+      {
+        "text": "Вікторія Девоніна",
+        "href": "/card/profile/615dd9f723e4100b6a3edfdb"
+      },
+      {
+        "text": "Sale order #16697",
+        "href": "/card/journal/journal/6988d7fb1dfa6107440c16e3"
+      },
+      {
+        "text": "Катерина Радіонова",
+        "href": "/card/profile/6846adc7789830f5ad06a0d9"
+      }
+    ]
+  },
+  "Reports": {
+    "url": "https://web.ainur.app/card/reports",
+    "mainContent": [
+      "Reports",
+      "15\n      \n      \n      Notifications\n      \n      Settings",
+      "Notifications",
+      "Settings",
+      "Transactions",
+      "Select report type",
+      "Feedback",
+      "Attention",
+      "Attention"
+    ],
+    "buttons": [
+      "Send"
+    ],
+    "subItems": [
+      {
+        "text": "Point of sale",
+        "href": "/wpapp/"
+      },
+      {
+        "text": "Profile",
+        "href": "/card/profile/58c872aa3ce7d5fc688b49bc"
+      },
+      {
+        "text": "Payment",
+        "href": "/payment"
+      },
+      {
+        "text": "Sale order",
+        "href": "/card/docs/sell"
+      },
+      {
+        "text": "Purchase",
+        "href": "/card/docs/purchase"
+      },
+      {
+        "text": "Return sale",
+        "href": "/card/docs/return-sell"
+      },
+      {
+        "text": "Return purchase",
+        "href": "/card/docs/return-purchase"
+      },
+      {
+        "text": "Stocktake",
+        "href": "/card/docs/changes-inventory"
+      },
+      {
+        "text": "Stock adjustment",
+        "href": "/card/docs/changes-in"
+      },
+      {
+        "text": "Write-off",
+        "href": "/card/docs/changes-out"
+      },
+      {
+        "text": "Movement",
+        "href": "/card/docs/moving"
+      },
+      {
+        "text": "Recieved",
+        "href": "/card/pay/cash-parish"
+      },
+      {
+        "text": "Spent",
+        "href": "/card/pay/cash-outflow"
+      },
+      {
+        "text": "Transfer",
+        "href": "/card/pay/cash-transfer"
+      },
+      {
+        "text": "Dashboard",
+        "href": "/"
+      },
+      {
+        "text": "Catalog",
+        "href": "/card/catalog/list"
+      },
+      {
+        "text": "Shifts",
+        "href": "authenticated.card.register.shift"
+      },
+      {
+        "text": "Registers",
+        "href": "authenticated.card.register.cash"
+      },
+      {
+        "text": "Download POS",
+        "href": "https://ainur-static.s3.eu-central-1.amazonaws.com/AinurPOS+Setup+Latest.exe"
+      },
+      {
+        "text": "Orders",
+        "href": "/card/journal"
+      },
+      {
+        "text": "Transactions",
+        "href": "/card/money"
+      },
+      {
+        "text": "Reports",
+        "href": "/card/reports"
+      },
+      {
+        "text": "Suppliers",
+        "href": "authenticated.card.supplier"
+      },
+      {
+        "text": "Customers",
+        "href": "authenticated.card.clients"
+      },
+      {
+        "text": "Settings",
+        "href": "authenticated.card.company.settings.main"
+      },
+      {
+        "text": "Employees",
+        "href": "authenticated.card.company.staff"
+      },
+      {
+        "text": "Stores",
+        "href": "authenticated.card.company.stores"
+      },
+      {
+        "text": "Accounts",
+        "href": "authenticated.card.company.accounts"
+      },
+      {
+        "text": "Loyalty",
+        "href": "authenticated.card.company.loyalty.bonus"
+      },
+      {
+        "text": "Printing forms",
+        "href": "/plugin/print-templates"
+      },
+      {
+        "text": "eStore",
+        "href": "authenticated.card.ecommerce.theme"
+      },
+      {
+        "text": "eStore",
+        "href": "/card/ecommerce-admin"
+      },
+      {
+        "text": "Integration",
+        "href": "/card/integrations/"
+      },
+      {
+        "text": "Billing",
+        "href": "/payment"
+      },
+      {
+        "text": "Trash",
+        "href": "/card/trash/"
+      },
+      {
+        "text": "Knowledge base",
+        "href": "https://help.ainurpos.com"
+      },
+      {
+        "text": "Affiliate Program",
+        "href": "mailto:partners@cloudshop.ru?subject=Хочу%20стать%20партнером%20CloudShop&body=Здравствуйте!%0A%0AЯ%20заинтересован%20в%20партнёрстве%20с%20CloudShop%20и%20хотел%20бы%20узнать%20больше%20о%20возможностях%20сотрудничества.%0AПожалуйста,%20пришлите%20подробности%20и%20условия%20партнёрской%20программы.%0A%0AС%20уважением,%0A[Ваше%20имя]"
+      },
+      {
+        "text": "Sales by products",
+        "href": "/card/reports/product"
+      },
+      {
+        "text": "Sales by categories",
+        "href": "/card/reports/categories"
+      },
+      {
+        "text": "Sales by sets",
+        "href": "/card/reports/set"
+      },
+      {
+        "text": "Sales by days",
+        "href": "/card/reports/day"
+      },
+      {
+        "text": "Sales by weeks",
+        "href": "/card/reports/week"
+      },
+      {
+        "text": "Sales by month",
+        "href": "/card/reports/month"
+      },
+      {
+        "text": "Inventory report",
+        "href": "/card/reports/motion"
+      },
+      {
+        "text": "Agents report",
+        "href": "/card/reports/agent"
+      },
+      {
+        "text": "Financial report",
+        "href": "/card/reports/finance"
+      },
+      {
+        "text": "Staff report",
+        "href": "/card/reports/staff"
+      }
+    ]
+  },
+  "Catalog": {
+    "url": "https://web.ainur.app/card/catalog/list",
+    "mainContent": [
+      "Catalog\n\t\t\t\t\t\t/ catalog",
+      "15\n      \n      \n      Notifications\n      \n      Settings",
+      "Notifications",
+      "Settings",
+      "Transactions",
+      "Zero cost",
+      "Negative balance",
+      "The expiration date expires within 7 days.",
+      "Out of stock",
+      "Not sold for 3 months",
+      "The total balance is less than the minimum",
+      "The expiration date has expired",
+      "Discounted products",
+      "Create document",
+      "Group operations",
+      "Table settings",
+      "60%\n                \n                Loaded 2000 of 3203",
+      "Not foundTo add a product, service or a set, click \"add product\"",
+      "Feedback",
+      "Attention",
+      "Attention"
+    ],
+    "buttons": [
+      "Send"
+    ],
+    "subItems": [
+      {
+        "text": "Point of sale",
+        "href": "/wpapp/"
+      },
+      {
+        "text": "Profile",
+        "href": "/card/profile/58c872aa3ce7d5fc688b49bc"
+      },
+      {
+        "text": "Payment",
+        "href": "/payment"
+      },
+      {
+        "text": "Sale order",
+        "href": "/card/docs/sell"
+      },
+      {
+        "text": "Purchase",
+        "href": "/card/docs/purchase"
+      },
+      {
+        "text": "Return sale",
+        "href": "/card/docs/return-sell"
+      },
+      {
+        "text": "Return purchase",
+        "href": "/card/docs/return-purchase"
+      },
+      {
+        "text": "Stocktake",
+        "href": "/card/docs/changes-inventory"
+      },
+      {
+        "text": "Stock adjustment",
+        "href": "/card/docs/changes-in"
+      },
+      {
+        "text": "Write-off",
+        "href": "/card/docs/changes-out"
+      },
+      {
+        "text": "Movement",
+        "href": "/card/docs/moving"
+      },
+      {
+        "text": "Recieved",
+        "href": "/card/pay/cash-parish"
+      },
+      {
+        "text": "Spent",
+        "href": "/card/pay/cash-outflow"
+      },
+      {
+        "text": "Transfer",
+        "href": "/card/pay/cash-transfer"
+      },
+      {
+        "text": "Dashboard",
+        "href": "/"
+      },
+      {
+        "text": "Catalog",
+        "href": "/card/catalog/list"
+      },
+      {
+        "text": "Shifts",
+        "href": "authenticated.card.register.shift"
+      },
+      {
+        "text": "Registers",
+        "href": "authenticated.card.register.cash"
+      },
+      {
+        "text": "Download POS",
+        "href": "https://ainur-static.s3.eu-central-1.amazonaws.com/AinurPOS+Setup+Latest.exe"
+      },
+      {
+        "text": "Orders",
+        "href": "/card/journal"
+      },
+      {
+        "text": "Transactions",
+        "href": "/card/money"
+      },
+      {
+        "text": "Reports",
+        "href": "/card/reports"
+      },
+      {
+        "text": "Suppliers",
+        "href": "authenticated.card.supplier"
+      },
+      {
+        "text": "Customers",
+        "href": "authenticated.card.clients"
+      },
+      {
+        "text": "Settings",
+        "href": "authenticated.card.company.settings.main"
+      },
+      {
+        "text": "Employees",
+        "href": "authenticated.card.company.staff"
+      },
+      {
+        "text": "Stores",
+        "href": "authenticated.card.company.stores"
+      },
+      {
+        "text": "Accounts",
+        "href": "authenticated.card.company.accounts"
+      },
+      {
+        "text": "Loyalty",
+        "href": "authenticated.card.company.loyalty.bonus"
+      },
+      {
+        "text": "Printing forms",
+        "href": "/plugin/print-templates"
+      },
+      {
+        "text": "eStore",
+        "href": "authenticated.card.ecommerce.theme"
+      },
+      {
+        "text": "eStore",
+        "href": "/card/ecommerce-admin"
+      },
+      {
+        "text": "Integration",
+        "href": "/card/integrations/"
+      },
+      {
+        "text": "Billing",
+        "href": "/payment"
+      },
+      {
+        "text": "Trash",
+        "href": "/card/trash/"
+      },
+      {
+        "text": "Knowledge base",
+        "href": "https://help.ainurpos.com"
+      },
+      {
+        "text": "Affiliate Program",
+        "href": "mailto:partners@cloudshop.ru?subject=Хочу%20стать%20партнером%20CloudShop&body=Здравствуйте!%0A%0AЯ%20заинтересован%20в%20партнёрстве%20с%20CloudShop%20и%20хотел%20бы%20узнать%20больше%20о%20возможностях%20сотрудничества.%0AПожалуйста,%20пришлите%20подробности%20и%20условия%20партнёрской%20программы.%0A%0AС%20уважением,%0A[Ваше%20имя]"
+      },
+      {
+        "text": "Create product",
+        "href": "/card/catalog/create/"
+      },
+      {
+        "text": "Import of goods",
+        "href": "/card/catalog/import"
+      }
+    ]
+  },
+  "Contacts": {
+    "url": "https://web.ainur.app/card/supplier",
+    "mainContent": [
+      "Suppliers",
+      "15\n      \n      \n      Notifications\n      \n      Settings",
+      "Notifications",
+      "Settings",
+      "Transactions",
+      "Not found",
+      "Feedback",
+      "Attention",
+      "Attention"
+    ],
+    "buttons": [
+      "Send"
+    ],
+    "subItems": [
+      {
+        "text": "Point of sale",
+        "href": "/wpapp/"
+      },
+      {
+        "text": "Profile",
+        "href": "/card/profile/58c872aa3ce7d5fc688b49bc"
+      },
+      {
+        "text": "Payment",
+        "href": "/payment"
+      },
+      {
+        "text": "Sale order",
+        "href": "/card/docs/sell"
+      },
+      {
+        "text": "Purchase",
+        "href": "/card/docs/purchase"
+      },
+      {
+        "text": "Return sale",
+        "href": "/card/docs/return-sell"
+      },
+      {
+        "text": "Return purchase",
+        "href": "/card/docs/return-purchase"
+      },
+      {
+        "text": "Stocktake",
+        "href": "/card/docs/changes-inventory"
+      },
+      {
+        "text": "Stock adjustment",
+        "href": "/card/docs/changes-in"
+      },
+      {
+        "text": "Write-off",
+        "href": "/card/docs/changes-out"
+      },
+      {
+        "text": "Movement",
+        "href": "/card/docs/moving"
+      },
+      {
+        "text": "Recieved",
+        "href": "/card/pay/cash-parish"
+      },
+      {
+        "text": "Spent",
+        "href": "/card/pay/cash-outflow"
+      },
+      {
+        "text": "Transfer",
+        "href": "/card/pay/cash-transfer"
+      },
+      {
+        "text": "Dashboard",
+        "href": "/"
+      },
+      {
+        "text": "Catalog",
+        "href": "/card/catalog/list"
+      },
+      {
+        "text": "Shifts",
+        "href": "authenticated.card.register.shift"
+      },
+      {
+        "text": "Registers",
+        "href": "authenticated.card.register.cash"
+      },
+      {
+        "text": "Download POS",
+        "href": "https://ainur-static.s3.eu-central-1.amazonaws.com/AinurPOS+Setup+Latest.exe"
+      },
+      {
+        "text": "Orders",
+        "href": "/card/journal"
+      },
+      {
+        "text": "Transactions",
+        "href": "/card/money"
+      },
+      {
+        "text": "Reports",
+        "href": "/card/reports"
+      },
+      {
+        "text": "Suppliers",
+        "href": "authenticated.card.supplier"
+      },
+      {
+        "text": "Customers",
+        "href": "authenticated.card.clients"
+      },
+      {
+        "text": "Settings",
+        "href": "authenticated.card.company.settings.main"
+      },
+      {
+        "text": "Employees",
+        "href": "authenticated.card.company.staff"
+      },
+      {
+        "text": "Stores",
+        "href": "authenticated.card.company.stores"
+      },
+      {
+        "text": "Accounts",
+        "href": "authenticated.card.company.accounts"
+      },
+      {
+        "text": "Loyalty",
+        "href": "authenticated.card.company.loyalty.bonus"
+      },
+      {
+        "text": "Printing forms",
+        "href": "/plugin/print-templates"
+      },
+      {
+        "text": "eStore",
+        "href": "authenticated.card.ecommerce.theme"
+      },
+      {
+        "text": "eStore",
+        "href": "/card/ecommerce-admin"
+      },
+      {
+        "text": "Integration",
+        "href": "/card/integrations/"
+      },
+      {
+        "text": "Billing",
+        "href": "/payment"
+      },
+      {
+        "text": "Trash",
+        "href": "/card/trash/"
+      },
+      {
+        "text": "Knowledge base",
+        "href": "https://help.ainurpos.com"
+      },
+      {
+        "text": "Affiliate Program",
+        "href": "mailto:partners@cloudshop.ru?subject=Хочу%20стать%20партнером%20CloudShop&body=Здравствуйте!%0A%0AЯ%20заинтересован%20в%20партнёрстве%20с%20CloudShop%20и%20хотел%20бы%20узнать%20больше%20о%20возможностях%20сотрудничества.%0AПожалуйста,%20пришлите%20подробности%20и%20условия%20партнёрской%20программы.%0A%0AС%20уважением,%0A[Ваше%20имя]"
+      },
+      {
+        "text": "Create",
+        "href": "/card/suppliers/add"
+      },
+      {
+        "text": "008",
+        "href": "/card/suppliers/show/639797cd5444154f585c2dfc"
+      },
+      {
+        "text": "1000 дрібниць (Одеса)",
+        "href": "/card/suppliers/show/672617cb5afb33131d0562ea"
+      },
+      {
+        "text": "Abertime.com.ua Кошельки",
+        "href": "/card/suppliers/show/5bd1edd727ac63246f648713"
+      },
+      {
+        "text": "Belleza (Беллеза)",
+        "href": "/card/suppliers/show/5d23704c0bd70c62ac3988ee"
+      },
+      {
+        "text": "Bene Banka",
+        "href": "/card/suppliers/show/5ae1052d0eccd37faa454d7d"
+      },
+      {
+        "text": "0631443927",
+        "href": "tel:0631443927"
+      },
+      {
+        "text": "DUSHKA (косметика)",
+        "href": "/card/suppliers/show/58daa38a3ce7d516148b4590"
+      },
+      {
+        "text": "ECOGO/ ЭКОГОУ",
+        "href": "/card/suppliers/show/5c27802a0bd70c3e210f75ef"
+      },
+      {
+        "text": "FoodMarket (Волынская база)",
+        "href": "/card/suppliers/show/616846b623e4101df7209ac1"
+      },
+      {
+        "text": "Gusto Market (ФОП Кошмал Н.С., Столичний ринок)",
+        "href": "/card/suppliers/show/68c9922f12e323df2403a837"
+      },
+      {
+        "text": "KidSwag (игрушки)",
+        "href": "/card/suppliers/show/613f836f23e4102f34108231"
+      },
+      {
+        "text": "Kyiv Style",
+        "href": "/card/suppliers/show/5ac7bed70eccd34098722cc0"
+      },
+      {
+        "text": "0674202717",
+        "href": "tel:0674202717"
+      },
+      {
+        "text": "0501371245",
+        "href": "tel:0501371245"
+      },
+      {
+        "text": "mail@kyivstyle.com",
+        "href": "mailto:mail@kyivstyle.com"
+      },
+      {
+        "text": "La Prida",
+        "href": "/card/suppliers/show/58c87bea3ce7d524698b4779"
+      },
+      {
+        "text": "0 800 750 280",
+        "href": "tel:0 800 750 280"
+      },
+      {
+        "text": "laprida.ua@gmail.com",
+        "href": "mailto:laprida.ua@gmail.com"
+      },
+      {
+        "text": "MORO",
+        "href": "/card/suppliers/show/665dd75365551ac62d03e7a8"
+      },
+      {
+        "text": "Master8shop.prom.ua Роман",
+        "href": "/card/suppliers/show/617c1c7223e41018f4615f3a"
+      },
+      {
+        "text": "PAPA design (ПАПА дизайн)",
+        "href": "/card/suppliers/show/5e55142a0bd70c534144d9c2"
+      },
+      {
+        "text": "0676538383",
+        "href": "tel:0676538383"
+      },
+      {
+        "text": "Restore Ua",
+        "href": "/card/suppliers/show/617c1bdd23e4100bb761b36e"
+      },
+      {
+        "text": "Sweet Life",
+        "href": "/card/suppliers/show/58c87a9d3ce7d5686c8b460b"
+      },
+      {
+        "text": "066 306 42 06",
+        "href": "tel:066 306 42 06"
+      },
+      {
+        "text": "063 100 25 74",
+        "href": "tel:063 100 25 74"
+      },
+      {
+        "text": "Vtrende (бутилочки, термоси, кролі)",
+        "href": "/card/suppliers/show/58c881273ce7d5f26a8b473d"
+      },
+      {
+        "text": "093 267 56 42",
+        "href": "tel:093 267 56 42"
+      },
+      {
+        "text": "WestFood (ВестФуд, оптовий склад)",
+        "href": "/card/suppliers/show/69380d5ca3a0e80f170dc760"
+      },
+      {
+        "text": "WestOpt (ВестОпт, оптовий склад)",
+        "href": "/card/suppliers/show/696a5742de3a39f94c0c9cc4"
+      },
+      {
+        "text": "ZIZ",
+        "href": "/card/suppliers/show/58c87b133ce7d5686c8b460d"
+      },
+      {
+        "text": "063 877 41 75",
+        "href": "tel:063 877 41 75"
+      },
+      {
+        "text": "info@ziz.ua",
+        "href": "mailto:info@ziz.ua"
+      },
+      {
+        "text": "Євгеній Бурмістров",
+        "href": "/card/suppliers/show/685c9f996c405820dc0a40a8"
+      },
+      {
+        "text": "0662128474",
+        "href": "tel:0662128474"
+      },
+      {
+        "text": "Ірина Волянська та Тетяна (Рівне)",
+        "href": "/card/suppliers/show/671bcbc6444b9f8db00accf6"
+      },
+      {
+        "text": "0967800580",
+        "href": "tel:0967800580"
+      },
+      {
+        "text": "Ірина Запоріжжя",
+        "href": "/card/suppliers/show/68ffc8d4fdac71d3610eb159"
+      },
+      {
+        "text": "Ірина Козина",
+        "href": "/card/suppliers/show/6761a2654ab02c95fc097649"
+      },
+      {
+        "text": "093 122 4402",
+        "href": "tel:093 122 4402"
+      },
+      {
+        "text": "Ірина Рибак (кіндери)",
+        "href": "/card/suppliers/show/697b5e3f5324adbb7b049374"
+      },
+      {
+        "text": "0958828821",
+        "href": "tel:0958828821"
+      },
+      {
+        "text": "Ірина Сквіші Київ",
+        "href": "/card/suppliers/show/671a0e914100cd7e5e0de46b"
+      },
+      {
+        "text": "АТБ",
+        "href": "/card/suppliers/show/61bd040ac01c870e926c1b37"
+      },
+      {
+        "text": "Аврора",
+        "href": "/card/suppliers/show/63580f91dff0f94b3803d4c0"
+      },
+      {
+        "text": "Адина (кроли)",
+        "href": "/card/suppliers/show/5b0be66f0eccd354fe7b8dfc"
+      },
+      {
+        "text": "Алексей Теремки",
+        "href": "/card/suppliers/show/60d4b6c20bd70c4f1b45b297"
+      },
+      {
+        "text": "Аліна Пашаєва",
+        "href": "/card/suppliers/show/695570bb7437c5dff505fd17"
+      },
+      {
+        "text": "0935814093",
+        "href": "tel:0935814093"
+      },
+      {
+        "text": "Аліна та Валерій  Пашаєви 1070-1072",
+        "href": "/card/suppliers/show/683a2814a78f50976c083f77"
+      },
+      {
+        "text": "0935814093",
+        "href": "tel:0935814093"
+      },
+      {
+        "text": "0939209332",
+        "href": "tel:0939209332"
+      },
+      {
+        "text": "Анна (сквиши, бейблейди)",
+        "href": "/card/suppliers/show/5b48e4fd0eccd321d126b00e"
+      },
+      {
+        "text": "0982429834",
+        "href": "tel:0982429834"
+      },
+      {
+        "text": "0509356370",
+        "href": "tel:0509356370"
+      },
+      {
+        "text": "Антон Хоррор персонажи",
+        "href": "/card/suppliers/show/60ba29990bd70c78ff75316f"
+      },
+      {
+        "text": "Артем Валигура",
+        "href": "/card/suppliers/show/610beeda23e4106ffc5e4497"
+      },
+      {
+        "text": "Артишок Дизайн",
+        "href": "/card/suppliers/show/58c87c4e3ce7d524698b477b"
+      },
+      {
+        "text": "093 600 86 86",
+        "href": "tel:093 600 86 86"
+      },
+      {
+        "text": "098 100 50 86",
+        "href": "tel:098 100 50 86"
+      },
+      {
+        "text": "artishokua@gmail.com",
+        "href": "mailto:artishokua@gmail.com"
+      },
+      {
+        "text": "Бейбі Плюс",
+        "href": "/card/suppliers/show/65496a99c0636622b700c598"
+      },
+      {
+        "text": "Бене Банка, Юшманов Владимир",
+        "href": "/card/suppliers/show/5b621db30eccd30a1c74dddb"
+      },
+      {
+        "text": "0631443927",
+        "href": "tel:0631443927"
+      },
+      {
+        "text": "Блокноти Сонаті",
+        "href": "/card/suppliers/show/58c883f13ce7d5c06b8b46b0"
+      },
+      {
+        "text": "067 326 09 01",
+        "href": "tel:067 326 09 01"
+      },
+      {
+        "text": "Богдан Юрій (солодощі)",
+        "href": "/card/suppliers/show/68d696d819d140736e052e3a"
+      },
+      {
+        "text": "0676479789",
+        "href": "tel:0676479789"
+      },
+      {
+        "text": "Бондарчук Андрей Хагги Вагги",
+        "href": "/card/suppliers/show/61ae4cdaec64562dd87822fe"
+      },
+      {
+        "text": "0505604975",
+        "href": "tel:0505604975"
+      },
+      {
+        "text": "Борис Бабий",
+        "href": "/card/suppliers/show/6213bc0099618702c503c3f4"
+      },
+      {
+        "text": "0689563446",
+        "href": "tel:0689563446"
+      },
+      {
+        "text": "Брелки К",
+        "href": "/card/suppliers/show/5e5412630bd70c5eae45d174"
+      },
+      {
+        "text": "Будинок полімерів",
+        "href": "/card/suppliers/show/654e1d5a2ec7bbef600b2666"
+      },
+      {
+        "text": "0672007200",
+        "href": "tel:0672007200"
+      },
+      {
+        "text": "Бутик Сладостей ЖаТем",
+        "href": "/card/suppliers/show/5d7695f80bd70c260205e444"
+      },
+      {
+        "text": "Вадим Бадіу",
+        "href": "/card/suppliers/show/683a2b2df208955836017ba0"
+      },
+      {
+        "text": "0939209332",
+        "href": "tel:0939209332"
+      },
+      {
+        "text": "Велпакс (пакети)",
+        "href": "/card/suppliers/show/64a41463c4feb926600540e6"
+      },
+      {
+        "text": "Вива заколки",
+        "href": "/card/suppliers/show/5c41fb580bd70c41fb26f1c6"
+      },
+      {
+        "text": "Винго",
+        "href": "/card/suppliers/show/61c39c44328dfb254d0319e3"
+      }
+    ]
+  },
+  "Company": {
+    "url": "https://web.ainur.app/card/company/company/settings/main/",
+    "mainContent": [
+      "Settings\n\t\t\t\t\t\t/ company settings",
+      "15\n      \n      \n      Notifications\n      \n      Settings",
+      "Notifications",
+      "Settings",
+      "Transactions",
+      "Loveiska\n          Created 15 March 2017\n        \n      \n      \n        Company\n        ID 58c872aa3ce7d5fc688b49bd",
+      "Loveiska\n          Created 15 March 2017",
+      "Created 15 March 2017",
+      "Company",
+      "ID 58c872aa3ce7d5fc688b49bd",
+      "Select the country and currency",
+      "Currency",
+      "Feedback",
+      "Attention",
+      "Attention"
+    ],
+    "buttons": [
+      "Send"
+    ],
+    "subItems": [
+      {
+        "text": "Point of sale",
+        "href": "/wpapp/"
+      },
+      {
+        "text": "Profile",
+        "href": "/card/profile/58c872aa3ce7d5fc688b49bc"
+      },
+      {
+        "text": "Payment",
+        "href": "/payment"
+      },
+      {
+        "text": "Sale order",
+        "href": "/card/docs/sell"
+      },
+      {
+        "text": "Purchase",
+        "href": "/card/docs/purchase"
+      },
+      {
+        "text": "Return sale",
+        "href": "/card/docs/return-sell"
+      },
+      {
+        "text": "Return purchase",
+        "href": "/card/docs/return-purchase"
+      },
+      {
+        "text": "Stocktake",
+        "href": "/card/docs/changes-inventory"
+      },
+      {
+        "text": "Stock adjustment",
+        "href": "/card/docs/changes-in"
+      },
+      {
+        "text": "Write-off",
+        "href": "/card/docs/changes-out"
+      },
+      {
+        "text": "Movement",
+        "href": "/card/docs/moving"
+      },
+      {
+        "text": "Recieved",
+        "href": "/card/pay/cash-parish"
+      },
+      {
+        "text": "Spent",
+        "href": "/card/pay/cash-outflow"
+      },
+      {
+        "text": "Transfer",
+        "href": "/card/pay/cash-transfer"
+      },
+      {
+        "text": "Dashboard",
+        "href": "/"
+      },
+      {
+        "text": "Catalog",
+        "href": "/card/catalog/list"
+      },
+      {
+        "text": "Shifts",
+        "href": "authenticated.card.register.shift"
+      },
+      {
+        "text": "Registers",
+        "href": "authenticated.card.register.cash"
+      },
+      {
+        "text": "Download POS",
+        "href": "https://ainur-static.s3.eu-central-1.amazonaws.com/AinurPOS+Setup+Latest.exe"
+      },
+      {
+        "text": "Orders",
+        "href": "/card/journal"
+      },
+      {
+        "text": "Transactions",
+        "href": "/card/money"
+      },
+      {
+        "text": "Reports",
+        "href": "/card/reports"
+      },
+      {
+        "text": "Suppliers",
+        "href": "authenticated.card.supplier"
+      },
+      {
+        "text": "Customers",
+        "href": "authenticated.card.clients"
+      },
+      {
+        "text": "Settings",
+        "href": "authenticated.card.company.settings.main"
+      },
+      {
+        "text": "Employees",
+        "href": "authenticated.card.company.staff"
+      },
+      {
+        "text": "Stores",
+        "href": "authenticated.card.company.stores"
+      },
+      {
+        "text": "Accounts",
+        "href": "authenticated.card.company.accounts"
+      },
+      {
+        "text": "Loyalty",
+        "href": "authenticated.card.company.loyalty.bonus"
+      },
+      {
+        "text": "Printing forms",
+        "href": "/plugin/print-templates"
+      },
+      {
+        "text": "eStore",
+        "href": "authenticated.card.ecommerce.theme"
+      },
+      {
+        "text": "eStore",
+        "href": "/card/ecommerce-admin"
+      },
+      {
+        "text": "Integration",
+        "href": "/card/integrations/"
+      },
+      {
+        "text": "Billing",
+        "href": "/payment"
+      },
+      {
+        "text": "Trash",
+        "href": "/card/trash/"
+      },
+      {
+        "text": "Knowledge base",
+        "href": "https://help.ainurpos.com"
+      },
+      {
+        "text": "Affiliate Program",
+        "href": "mailto:partners@cloudshop.ru?subject=Хочу%20стать%20партнером%20CloudShop&body=Здравствуйте!%0A%0AЯ%20заинтересован%20в%20партнёрстве%20с%20CloudShop%20и%20хотел%20бы%20узнать%20больше%20о%20возможностях%20сотрудничества.%0AПожалуйста,%20пришлите%20подробности%20и%20условия%20партнёрской%20программы.%0A%0AС%20уважением,%0A[Ваше%20имя]"
+      },
+      {
+        "text": "Main",
+        "href": "/card/company/company/settings/main/"
+      },
+      {
+        "text": "Details",
+        "href": "/card/company/company/settings/requisites/"
+      },
+      {
+        "text": "Taxes",
+        "href": "/card/company/company/settings/taxes/"
+      },
+      {
+        "text": "Email report",
+        "href": "/card/company/company/settings/daily-report/"
+      },
+      {
+        "text": "Data",
+        "href": "/card/company/company/settings/data/"
+      }
+    ]
+  },
+  "Billing": {
+    "url": "https://web.ainur.app/payment",
+    "mainContent": [
+      "Billing",
+      "15\n      \n      \n      Notifications\n      \n      Settings",
+      "Notifications",
+      "Settings",
+      "Transactions",
+      "loading",
+      "Feedback",
+      "Attention",
+      "Attention"
+    ],
+    "buttons": [
+      "Send"
+    ],
+    "subItems": [
+      {
+        "text": "Point of sale",
+        "href": "/wpapp/"
+      },
+      {
+        "text": "Profile",
+        "href": "/card/profile/58c872aa3ce7d5fc688b49bc"
+      },
+      {
+        "text": "Payment",
+        "href": "/payment"
+      },
+      {
+        "text": "Sale order",
+        "href": "/card/docs/sell"
+      },
+      {
+        "text": "Purchase",
+        "href": "/card/docs/purchase"
+      },
+      {
+        "text": "Return sale",
+        "href": "/card/docs/return-sell"
+      },
+      {
+        "text": "Return purchase",
+        "href": "/card/docs/return-purchase"
+      },
+      {
+        "text": "Stocktake",
+        "href": "/card/docs/changes-inventory"
+      },
+      {
+        "text": "Stock adjustment",
+        "href": "/card/docs/changes-in"
+      },
+      {
+        "text": "Write-off",
+        "href": "/card/docs/changes-out"
+      },
+      {
+        "text": "Movement",
+        "href": "/card/docs/moving"
+      },
+      {
+        "text": "Recieved",
+        "href": "/card/pay/cash-parish"
+      },
+      {
+        "text": "Spent",
+        "href": "/card/pay/cash-outflow"
+      },
+      {
+        "text": "Transfer",
+        "href": "/card/pay/cash-transfer"
+      },
+      {
+        "text": "Dashboard",
+        "href": "/"
+      },
+      {
+        "text": "Catalog",
+        "href": "/card/catalog/list"
+      },
+      {
+        "text": "Shifts",
+        "href": "authenticated.card.register.shift"
+      },
+      {
+        "text": "Registers",
+        "href": "authenticated.card.register.cash"
+      },
+      {
+        "text": "Download POS",
+        "href": "https://ainur-static.s3.eu-central-1.amazonaws.com/AinurPOS+Setup+Latest.exe"
+      },
+      {
+        "text": "Orders",
+        "href": "/card/journal"
+      },
+      {
+        "text": "Transactions",
+        "href": "/card/money"
+      },
+      {
+        "text": "Reports",
+        "href": "/card/reports"
+      },
+      {
+        "text": "Suppliers",
+        "href": "authenticated.card.supplier"
+      },
+      {
+        "text": "Customers",
+        "href": "authenticated.card.clients"
+      },
+      {
+        "text": "Settings",
+        "href": "authenticated.card.company.settings.main"
+      },
+      {
+        "text": "Employees",
+        "href": "authenticated.card.company.staff"
+      },
+      {
+        "text": "Stores",
+        "href": "authenticated.card.company.stores"
+      },
+      {
+        "text": "Accounts",
+        "href": "authenticated.card.company.accounts"
+      },
+      {
+        "text": "Loyalty",
+        "href": "authenticated.card.company.loyalty.bonus"
+      },
+      {
+        "text": "Printing forms",
+        "href": "/plugin/print-templates"
+      },
+      {
+        "text": "eStore",
+        "href": "authenticated.card.ecommerce.theme"
+      },
+      {
+        "text": "eStore",
+        "href": "/card/ecommerce-admin"
+      },
+      {
+        "text": "Integration",
+        "href": "/card/integrations/"
+      },
+      {
+        "text": "Billing",
+        "href": "/payment"
+      },
+      {
+        "text": "Trash",
+        "href": "/card/trash/"
+      },
+      {
+        "text": "Knowledge base",
+        "href": "https://help.ainurpos.com"
+      },
+      {
+        "text": "Affiliate Program",
+        "href": "mailto:partners@cloudshop.ru?subject=Хочу%20стать%20партнером%20CloudShop&body=Здравствуйте!%0A%0AЯ%20заинтересован%20в%20партнёрстве%20с%20CloudShop%20и%20хотел%20бы%20узнать%20больше%20о%20возможностях%20сотрудничества.%0AПожалуйста,%20пришлите%20подробности%20и%20условия%20партнёрской%20программы.%0A%0AС%20уважением,%0A[Ваше%20имя]"
+      }
+    ]
+  },
+  "ReportsDetail": {
+    "reportLinks": [
+      {
+        "text": "Reports",
+        "href": "/card/reports"
+      },
+      {
+        "text": "Sales by products",
+        "href": "/card/reports/product"
+      },
+      {
+        "text": "Sales by categories",
+        "href": "/card/reports/categories"
+      },
+      {
+        "text": "Sales by sets",
+        "href": "/card/reports/set"
+      },
+      {
+        "text": "Sales by days",
+        "href": "/card/reports/day"
+      },
+      {
+        "text": "Sales by weeks",
+        "href": "/card/reports/week"
+      },
+      {
+        "text": "Sales by month",
+        "href": "/card/reports/month"
+      },
+      {
+        "text": "Inventory report",
+        "href": "/card/reports/motion"
+      },
+      {
+        "text": "Agents report",
+        "href": "/card/reports/agent"
+      },
+      {
+        "text": "Financial report",
+        "href": "/card/reports/finance"
+      },
+      {
+        "text": "Staff report",
+        "href": "/card/reports/staff"
+      }
+    ]
+  }
+}

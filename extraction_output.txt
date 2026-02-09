@@ -1,0 +1,124 @@
+﻿================================================================================
+≡ƒÜÇ AINUR COMPLETE DATA EXTRACTION
+================================================================================
+Started: 2026-02-10 00:34:41.943677
+Company ID: 58c872aa3ce7d5fc688b49bd
+Output: C:/Users/HDUser/ainur-pos-clone/extracted_data
+================================================================================
+
+≡ƒöî Testing connection...
+   Γ£à Connection successful!
+
+≡ƒÅó Extracting COMPANY INFO...
+
+≡ƒÅ¬ Extracting STORES...
+   Γ£à Extracted: 9 stores
+
+≡ƒôü Extracting CATEGORIES...
+   Γ£à Extracted: 110 categories
+
+≡ƒôª Extracting PRODUCTS...
+   Total in system: 3,203
+   Γ£à Extracted: 3,203 products
+
+≡ƒôè Extracting PRODUCT STOCK...
+   Γ£à Extracted: 0 stock entries
+
+≡ƒæÑ Extracting CUSTOMERS...
+   Total in system: 92
+   Γ£à Extracted: 92 customers
+
+≡ƒÅ¡ Extracting SUPPLIERS...
+   Γ£à Extracted: 187 suppliers
+
+≡ƒÅª Extracting ACCOUNTS...
+   Γ£à Extracted: 22 accounts
+
+≡ƒÆ│ Extracting MONEY SOURCES...
+   Γ£à Extracted: 30 money sources
+
+≡ƒûÑ∩╕Å Extracting REGISTERS...
+   Γ£à Extracted: 0 registers
+
+≡ƒæ¿ΓÇì≡ƒÆ╝ Extracting EMPLOYEES...
+   Γ£à Extracted: 0 employees
+
+≡ƒôÅ Extracting UNITS...
+   Γ£à Extracted: 0 units
+
+≡ƒÅ╖∩╕Å Extracting TAGS...
+   Γ£à Extracted: 0 tags
+
+≡ƒÆ░ Extracting TAXES...
+   Γ£à Extracted: 0 taxes
+
+≡ƒôä Extracting DOCUMENTS...
+   Γ£à Extracted: 10,000 documents
+   Document types:
+      - sales: 9,521
+      - movements: 256
+      - return_sales: 114
+      - purchases: 65
+      - changes: 42
+      - return_purchases: 2
+
+≡ƒÆ╡ Extracting MONEY MOVEMENTS...
+   Γ£à Extracted: 10,000 money movements
+      - Credits (income): 480
+      - Debits (expense): 9,520
+
+ΓÅ░ Extracting SHIFTS...
+   Γ£à Extracted: 0 shifts
+
+ΓÜÖ∩╕Å Extracting SETTINGS...
+   Γ£à Extracted settings from 0 endpoints
+
+================================================================================
+≡ƒÆ╛ SAVING DATA TO FILES
+================================================================================
+   stores              :        9 records (     8.3 KB)
+   categories          :      110 records (     3.0 KB)
+   products            :    3,203 records (  7027.2 KB)
+   product_stock       :        0 records (     0.0 KB)
+   customers           :       92 records (    90.5 KB)
+   suppliers           :      187 records (   146.1 KB)
+   accounts            :       22 records (    16.1 KB)
+   money_sources       :       30 records (     5.2 KB)
+   registers           :        0 records (     0.0 KB)
+   employees           :        0 records (     0.0 KB)
+   units               :        0 records (     0.0 KB)
+   tags                :        0 records (     0.0 KB)
+   taxes               :        0 records (     0.0 KB)
+   documents           :   10,000 records ( 55075.4 KB)
+   money_movements     :   10,000 records ( 14429.0 KB)
+   shifts              :        0 records (     0.0 KB)
+   settings            :        1 records (     0.0 KB)
+
+================================================================================
+≡ƒôè EXTRACTION SUMMARY
+================================================================================
+   company             :          0
+   stores              :          9
+   categories          :        110
+   products            :      3,203
+   product_stock       :          0
+   customers           :         92
+   suppliers           :        187
+   accounts            :         22
+   money_sources       :         30
+   registers           :          0
+   employees           :          0
+   units               :          0
+   tags                :          0
+   taxes               :          0
+   documents           :     10,000
+   money_movements     :     10,000
+   shifts              :          0
+   settings            :          1
+--------------------------------------------------------------------------------
+   TOTAL               :     23,654
+================================================================================
+
+Γ£à EXTRACTION COMPLETE!
+≡ƒôü Data saved to: C:/Users/HDUser/ainur-pos-clone/extracted_data
+≡ƒòÉ Completed: 2026-02-10 00:35:32.819302

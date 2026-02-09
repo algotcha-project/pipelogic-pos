@@ -25,9 +25,9 @@
     "type": "bank_account",
     "bank_details": [],
     "balance": {
-      "income": 3488754.88,
+      "income": 3494113.88,
       "outcome": -7831,
-      "balance": 3480923.88
+      "balance": 3486282.88
     },
     "name": "Термінал Осокорки",
     "include": true,
@@ -46,9 +46,9 @@
     "type": "bank_account",
     "bank_details": [],
     "balance": {
-      "income": 5139036.01,
+      "income": 5151034.01,
       "outcome": -5426,
-      "balance": 5133610.01
+      "balance": 5145608.01
     },
     "name": "Термінал Лобановського",
     "include": true,
@@ -67,9 +67,9 @@
     "type": "bank_account",
     "bank_details": [],
     "balance": {
-      "income": 2109120.89,
+      "income": 2112344.89,
       "outcome": -8627,
-      "balance": 2100493.89
+      "balance": 2103717.89
     },
     "name": "Термінал \"Океан Плаза\" мінус 1 поверх Ашан",
     "include": true,
@@ -88,9 +88,9 @@
     "type": "bank_account",
     "bank_details": [],
     "balance": {
-      "income": 4075721.98,
+      "income": 4092437.98,
       "outcome": -17027.89,
-      "balance": 4058694.09
+      "balance": 4075410.09
     },
     "name": "Термінал \"Океан Плаза\" 2 поверх",
     "include": true,
@@ -109,9 +109,9 @@
     "type": "bank_account",
     "bank_details": [],
     "balance": {
-      "income": 2956394.57,
+      "income": 2962203.57,
       "outcome": -11277.2,
-      "balance": 2945117.37
+      "balance": 2950926.37
     },
     "name": "Термінал \"Океан Плаза\" 1 поверх",
     "include": true,
@@ -232,9 +232,9 @@
     },
     "shortname": "Офіс \"LOVEISKA...",
     "balance": {
-      "income": 13247523.8,
-      "outcome": -32997048.42,
-      "balance": -19749524.62
+      "income": 13247703.81,
+      "outcome": -33002097.86,
+      "balance": -19754394.05
     },
     "type": "store",
     "include": false,
@@ -284,9 +284,9 @@
     "created_ms": 1507026951.719,
     "include": true,
     "balance": {
-      "income": 3135432.82,
+      "income": 3144643.82,
       "outcome": -37181.24,
-      "balance": 3098251.58
+      "balance": 3107462.58
     }
   },
   {
@@ -314,9 +314,9 @@
     "shortname": "Магазин \"ЫШ-ТЫ...",
     "default": false,
     "balance": {
-      "income": 4510896.41,
+      "income": 4526472.41,
       "outcome": -611791.01,
-      "balance": 3899105.4
+      "balance": 3914681.4
     },
     "type": "store",
     "include": true,
@@ -379,8 +379,8 @@
     "_client": "58c872aa3ce7d5fc688b49bd",
     "include": true,
     "balance": {
-      "income": 2856017.4,
-      "outcome": -2855668.4,
+      "income": 2871593.4,
+      "outcome": -2871244.4,
       "balance": 349
     }
   },
@@ -398,8 +398,8 @@
     "_client": "58c872aa3ce7d5fc688b49bd",
     "include": true,
     "balance": {
-      "income": 1936015.19,
-      "outcome": -1936015.19,
+      "income": 1945226.19,
+      "outcome": -1945226.19,
       "balance": 0
     }
   },
@@ -417,8 +417,8 @@
     "_client": "58c872aa3ce7d5fc688b49bd",
     "include": true,
     "balance": {
-      "income": 2708994.37,
-      "outcome": -2708544.58,
+      "income": 2722418.37,
+      "outcome": -2721968.58,
       "balance": 449.79
     }
   },
@@ -436,8 +436,8 @@
     "_client": "58c872aa3ce7d5fc688b49bd",
     "include": true,
     "balance": {
-      "income": 1909681.4,
-      "outcome": -1909681.4,
+      "income": 1912352.4,
+      "outcome": -1912352.4,
       "balance": 0
     }
   },
@@ -455,8 +455,8 @@
     "_client": "58c872aa3ce7d5fc688b49bd",
     "include": true,
     "balance": {
-      "income": 1383525.8,
-      "outcome": -1383525.8,
+      "income": 1386248.8,
+      "outcome": -1386248.8,
       "balance": 0
     }
   },
@@ -506,9 +506,9 @@
     "address": "вулиця Антоновича 176\n-1 поверх (біля 20 каси Ашану)",
     "description": "",
     "balance": {
-      "income": 3649815.75,
+      "income": 3652538.75,
       "outcome": -194828.6,
-      "balance": 3454987.15
+      "balance": 3457710.15
     },
     "type": "store",
     "include": false,
@@ -591,9 +591,9 @@
     },
     "include": true,
     "balance": {
-      "income": 4697043.15,
+      "income": 4710467.15,
       "outcome": -1681.36,
-      "balance": 4695361.79
+      "balance": 4708785.79
     }
   },
   {
@@ -610,9 +610,9 @@
     "created_ms": 1556624925.817,
     "include": true,
     "balance": {
-      "income": 2708672.9,
+      "income": 2711343.9,
       "outcome": -1117.55,
-      "balance": 2707555.35
+      "balance": 2710226.35
     }
   }
 ]

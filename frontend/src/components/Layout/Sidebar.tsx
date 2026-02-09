@@ -14,6 +14,7 @@ import {
   HelpCircle,
   ChevronDown,
   ChevronUp,
+  Folder,
 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useAppSelector } from '../../hooks/useRedux';
@@ -349,6 +350,11 @@ export default function Sidebar() {
         <NavItem to="/pos/products">
           <Package size={20} />
           Товари та послуги
+        </NavItem>
+
+        <NavItem to="/pos/categories">
+          <Folder size={20} />
+          Категорії
         </NavItem>
 
         <NavButton onClick={() => toggleSection('registers')}>

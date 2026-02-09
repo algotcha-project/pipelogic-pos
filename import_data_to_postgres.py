@@ -9,16 +9,10 @@ import psycopg2
 from psycopg2.extras import execute_values, Json
 from datetime import datetime
 
-# Configuration
-DB_CONFIG = {
-    'dbname': 'ainur_pos',
-    'user': os.environ.get('DB_USER', os.environ.get('USER', 'postgres')),
-    'password': os.environ.get('DB_PASSWORD', ''),
-    'host': os.environ.get('DB_HOST', 'localhost'),
-    'port': os.environ.get('DB_PORT', '5432')
-}
+# Configuration - Railway PostgreSQL
+DATABASE_URL = "postgresql://postgres:KZUhDgqjlWbQitDTfimaDcfWOUFTFYwZ@tramway.proxy.rlwy.net:35984/railway"
 
-DATA_DIR = '/Users/andriiliudvichuk/Projects/ainur-pos-clone/extracted_data'
+DATA_DIR = 'C:/Users/HDUser/ainur-pos-clone/extracted_data'
 COMPANY_ID = '58c872aa3ce7d5fc688b49bd'
 USER_ID = '58c872aa3ce7d5fc688b49bc'
 
@@ -463,18 +457,18 @@ def main():
     print("=" * 80)
     print(f"Started: {datetime.now()}")
     print(f"Data source: {DATA_DIR}")
-    print(f"Database: {DB_CONFIG['dbname']} @ {DB_CONFIG['host']}")
+    print(f"Database: Railway PostgreSQL")
     print("=" * 80)
     
     # Connect to database
-    print("\n🔌 Connecting to database...")
+    print("\n Connecting to database...")
     try:
-        conn = psycopg2.connect(**DB_CONFIG)
+        conn = psycopg2.connect(DATABASE_URL, sslmode='require')
         conn.autocommit = False
         cursor = conn.cursor()
-        print("   ✅ Connected!")
+        print("   Connected!")
     except Exception as e:
-        print(f"   ❌ Connection failed: {e}")
+        print(f"   Connection failed: {e}")
         return
     
     try:
