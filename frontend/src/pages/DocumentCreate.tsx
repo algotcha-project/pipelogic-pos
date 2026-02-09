@@ -657,7 +657,7 @@ export default function DocumentCreate() {
     const search = productSearch.toLowerCase();
     return products.filter(p => 
       p.name?.toLowerCase().includes(search) ||
-      p.article?.toLowerCase().includes(search) ||
+      p.sku?.toLowerCase().includes(search) ||
       p.barcode?.toLowerCase().includes(search)
     );
   }, [products, productSearch]);
@@ -919,7 +919,7 @@ export default function DocumentCreate() {
 
               {/* Store (from) field */}
               <FormField onClick={(e) => e.stopPropagation()}>
-                <Label>{docType === 'movement' ? config.storeFromLabel : config.storeLabel}</Label>
+                <Label>{docType === 'movement' ? 'Склад (звідки)' : 'Склад'}</Label>
                 <SelectWrapper>
                   <SelectButton
                     hasValue={!!selectedStore}
@@ -960,7 +960,7 @@ export default function DocumentCreate() {
               {/* Store (to) field for movement */}
               {docType === 'movement' && (
                 <FormField onClick={(e) => e.stopPropagation()}>
-                  <Label>{config.storeToLabel}</Label>
+                  <Label>Склад (куди)</Label>
                   <SelectWrapper>
                     <SelectButton
                       hasValue={!!selectedStoreTo}
@@ -1025,7 +1025,7 @@ export default function DocumentCreate() {
                     <tr key={item._id}>
                       <ItemsTd>{item.product.name}</ItemsTd>
                       <ItemsTd>{item.product.barcode || '—'}</ItemsTd>
-                      <ItemsTd>{item.product.article || '—'}</ItemsTd>
+                      <ItemsTd>{item.product.sku || '—'}</ItemsTd>
                       <ItemsTd>
                         <QtyInput
                           type="number"
