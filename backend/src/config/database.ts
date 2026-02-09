@@ -11,7 +11,7 @@ const poolConfig: PoolConfig = {
   password: process.env.DB_PASSWORD || '',
   max: 20,
   idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 5000,
+  connectionTimeoutMillis: 30000,
 };
 
 // Use DATABASE_URL if provided (for production)
@@ -31,15 +31,25 @@ pool.on('error', (err) => {
   console.error('Database connection error:', err.message);
 });
 
-// Initial connection test
-pool.connect()
-  .then(client => {
-    console.log('Database connection established');
-    client.release();
-  })
-  .catch(err => {
-    console.error('Failed to connect to database:', err.message);
-    process.exit(1);
-  });
+// Initial connection test with retry
+const connectWithRetry = async (retries = 5, delay = 5000) => {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const client = await pool.connect();
+      console.log('Database connection established');
+      client.release();
+      return;
+    } catch (err: any) {
+      console.error(`Failed to connect to database (attempt ${i + 1}/${retries}):`, err.message);
+      if (i < retries - 1) {
+        console.log(`Retrying in ${delay / 1000} seconds...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+      }
+    }
+  }
+  console.error('Could not connect to database after retries. App will continue without initial connection test.');
+};
+
+connectWithRetry();
 
 export default pool;
