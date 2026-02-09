@@ -20,6 +20,10 @@ import Reports from './pages/Reports';
 import Settings from './pages/Settings';
 import Suppliers from './pages/Suppliers';
 import MoneyMovement from './pages/MoneyMovement';
+import StoresPage from './pages/StoresPage';
+import AccountsPage from './pages/AccountsPage';
+import EmployeesPage from './pages/EmployeesPage';
+import MoneyMovementCreate from './pages/MoneyMovementCreate';
 
 function App() {
   console.log('App component rendering...');
@@ -43,14 +47,15 @@ function App() {
             <Route path="/pos/documents/new" element={<DocumentCreate />} />
             <Route path="/pos/movements" element={<Documents />} />
             <Route path="/pos/money" element={<MoneyMovement />} />
+            <Route path="/pos/money/new" element={<MoneyMovementCreate />} />
             <Route path="/pos/shifts" element={<Shifts />} />
-            <Route path="/pos/stores" element={<Settings />} />
-            <Route path="/pos/accounts" element={<Settings />} />
+            <Route path="/pos/stores" element={<StoresPage />} />
+            <Route path="/pos/accounts" element={<AccountsPage />} />
             <Route path="/pos/suppliers" element={<Suppliers />} />
             <Route path="/pos/reports" element={<Reports />} />
             <Route path="/pos/settings" element={<Settings />} />
             <Route path="/pos/company" element={<Settings />} />
-            <Route path="/pos/employees" element={<Settings />} />
+            <Route path="/pos/employees" element={<EmployeesPage />} />
             <Route path="/pos/loyalty" element={<Settings />} />
             <Route path="/pos/print-forms" element={<Settings />} />
             <Route path="/pos/cart" element={<Settings />} />

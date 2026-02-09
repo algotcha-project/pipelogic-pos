@@ -255,6 +255,12 @@ const documentTypes = [
   { id: 'movement', label: 'Переміщення' },
 ];
 
+const moneyTypes = [
+  { id: 'income', label: 'Прихід' },
+  { id: 'expense', label: 'Витрата' },
+  { id: 'transfer', label: 'Переказ' },
+];
+
 export default function Sidebar() {
   const navigate = useNavigate();
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
@@ -263,6 +269,7 @@ export default function Sidebar() {
     company: false,
   });
   const [createDropdownOpen, setCreateDropdownOpen] = useState(false);
+  const [moneyDropdownOpen, setMoneyDropdownOpen] = useState(false);
 
   const toggleSection = (section: string) => {
     setExpandedSections(prev => ({
@@ -271,12 +278,15 @@ export default function Sidebar() {
     }));
   };
 
-  // Close create dropdown when clicking outside
+  // Close dropdowns when clicking outside
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       if (!target.closest('[data-create-dropdown]')) {
         setCreateDropdownOpen(false);
+      }
+      if (!target.closest('[data-money-dropdown]')) {
+        setMoneyDropdownOpen(false);
       }
     };
     document.addEventListener('click', handleClick);
@@ -303,6 +313,28 @@ export default function Sidebar() {
               }}
             >
               {dt.label}
+            </CreateDropdownItem>
+          ))}
+        </CreateDropdown>
+      </CreateButtonWrapper>
+
+      <CreateButtonWrapper data-money-dropdown style={{ marginTop: '-8px' }}>
+        <CreateButton 
+          onClick={() => setMoneyDropdownOpen(!moneyDropdownOpen)}
+          style={{ background: '#10b981' }}
+        >
+          Рух грошей
+        </CreateButton>
+        <CreateDropdown isOpen={moneyDropdownOpen}>
+          {moneyTypes.map(mt => (
+            <CreateDropdownItem
+              key={mt.id}
+              onClick={() => {
+                navigate(`/pos/money/new?type=${mt.id}`);
+                setMoneyDropdownOpen(false);
+              }}
+            >
+              {mt.label}
             </CreateDropdownItem>
           ))}
         </CreateDropdown>
