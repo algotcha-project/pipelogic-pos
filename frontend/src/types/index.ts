@@ -49,6 +49,10 @@ export interface Product {
   created: number;
   updated?: number;
   _client: string;
+  pic?: string[];
+  description?: string;
+  unit?: string;
+  discount?: number;
 }
 
 export interface Category {

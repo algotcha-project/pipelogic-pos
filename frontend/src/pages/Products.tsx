@@ -335,7 +335,7 @@ const ProductRow = styled.tr`
   }
 `;
 
-const ProductImage = styled.div`
+const ProductImage = styled.div<{ $hasImage?: boolean }>`
   width: 40px;
   height: 40px;
   background: ${theme.colors.gray100};
@@ -344,6 +344,13 @@ const ProductImage = styled.div`
   align-items: center;
   justify-content: center;
   color: ${theme.colors.textMuted};
+  overflow: hidden;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 `;
 
 const ProductName = styled.span`
@@ -1082,8 +1089,12 @@ export default function Products() {
                     </Td>
                     {visibleColumns.photo && (
                       <Td>
-                        <ProductImage>
-                          <ImageIcon size={20} />
+                        <ProductImage $hasImage={!!product.pic?.length}>
+                          {product.pic && product.pic.length > 0 ? (
+                            <img src={product.pic[0]} alt={product.name} />
+                          ) : (
+                            <ImageIcon size={20} />
+                          )}
                         </ProductImage>
                       </Td>
                     )}
