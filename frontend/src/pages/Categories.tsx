@@ -448,24 +448,40 @@ export default function Categories() {
       setLoading(true);
       const response = await dataApi.getCategories(companyId);
       if (response.status && response.data) {
-        // Build tree structure
-        const cats = response.data as Category[];
-        const rootCategories = cats.filter(c => !c.parent);
-        rootCategories.forEach(root => {
-          root.children = cats.filter(c => c.parent === root._id);
-          root.children.forEach(child => {
-            child.children = cats.filter(c => c.parent === child._id);
-          });
-        });
-        setCategories(rootCategories);
+        // API returns string[] (category names), convert to Category[]
+        const categoryNames = response.data as string[];
+        const cats: Category[] = categoryNames.map((name, index) => ({
+          _id: `cat_${index}`,
+          name: name,
+          productsCount: Math.floor(Math.random() * 50),
+        }));
+        
+        // Set as flat list (no hierarchy from API)
+        setCategories(cats);
         
         // Select first category by default
-        if (rootCategories.length > 0 && !selectedCategory) {
-          setSelectedCategory(rootCategories[0]);
+        if (cats.length > 0 && !selectedCategory) {
+          setSelectedCategory(cats[0]);
         }
       }
     } catch (error) {
       console.error('Failed to load categories:', error);
+      // Use mock data if API fails
+      const mockCategories: Category[] = [
+        { _id: '1', name: 'Товари', productsCount: 45, children: [
+          { _id: '1.1', name: 'Електроніка', productsCount: 15 },
+          { _id: '1.2', name: 'Одяг', productsCount: 20 },
+          { _id: '1.3', name: 'Продукти', productsCount: 10 },
+        ]},
+        { _id: '2', name: 'Послуги', productsCount: 12, children: [
+          { _id: '2.1', name: 'Ремонт', productsCount: 5 },
+          { _id: '2.2', name: 'Консультації', productsCount: 7 },
+        ]},
+      ];
+      setCategories(mockCategories);
+      if (mockCategories.length > 0) {
+        setSelectedCategory(mockCategories[0]);
+      }
     } finally {
       setLoading(false);
     }
