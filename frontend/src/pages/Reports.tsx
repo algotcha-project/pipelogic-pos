@@ -18,6 +18,8 @@ import {
   Users,
   UserCircle,
   Wallet,
+  Warehouse,
+  TrendingUp,
 } from 'lucide-react';
 import MainLayout from '../components/Layout/MainLayout';
 import { useAppSelector, useAppDispatch } from '../hooks/useRedux';
@@ -50,7 +52,9 @@ type ReportSubType =
   | 'by_months' 
   | 'by_employees' 
   | 'by_clients'
-  | 'finance';
+  | 'finance'
+  | 'inventory'
+  | 'agents';
 
 // ============================================
 // Styled Components
@@ -473,13 +477,15 @@ const InfoValue = styled.span`
 const subReportTypes: { id: ReportSubType; name: string; icon: any; disabled?: boolean }[] = [
   { id: 'by_products', name: 'Продажі по товарам', icon: ShoppingBag },
   { id: 'by_categories', name: 'Продажі по категоріям', icon: Layers },
-  { id: 'by_sets', name: 'Продажі по комплектам', icon: Package, disabled: true },
+  { id: 'by_sets', name: 'Продажі по комплектам', icon: Package },
   { id: 'by_days', name: 'Продажі по дням', icon: CalendarDays },
   { id: 'by_weeks', name: 'Продажі по тижням', icon: Calendar },
   { id: 'by_months', name: 'Продажі по місяцям', icon: Calendar },
-  { id: 'by_employees', name: 'Звіт по співробітникам', icon: Users, disabled: true },
-  { id: 'by_clients', name: 'Звіт по клієнтам', icon: UserCircle, disabled: true },
-  { id: 'finance', name: 'Фінансовий', icon: Wallet, disabled: true },
+  { id: 'by_employees', name: 'Звіт по співробітникам', icon: Users },
+  { id: 'by_clients', name: 'Звіт по клієнтам', icon: UserCircle },
+  { id: 'inventory', name: 'Рух товарів', icon: Warehouse },
+  { id: 'agents', name: 'Звіт по агентам', icon: TrendingUp },
+  { id: 'finance', name: 'Фінансовий', icon: Wallet },
 ];
 
 // ============================================
