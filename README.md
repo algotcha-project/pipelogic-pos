@@ -1,6 +1,19 @@
-# AinurPOS Clone
+# PipeLogic POS
 
-A full-featured Point of Sale (POS) system clone built with modern technologies.
+A full-featured Point of Sale (POS) system built with modern technologies.
+
+## One-Click Deploy
+
+### Deploy Backend to Railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/algotcha-project/pipelogic-pos&rootDir=backend&envs=DATABASE_URL,PORT,NODE_ENV&DATABASE_URLDesc=PostgreSQL%20connection%20string&PORTDefault=3001&NODE_ENVDefault=production)
+
+After deploying, set these environment variables in Railway:
+- `DATABASE_URL`: `postgresql://postgres:olegister14041992@autorack.proxy.rlwy.net:28902/railway`
+- `PORT`: `3001`
+- `NODE_ENV`: `production`
+
+### Deploy Frontend to Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/algotcha-project/pipelogic-pos&root-directory=frontend&env=VITE_API_URL,VITE_SOCKET_URL&envDescription=Backend%20API%20URLs&project-name=pipelogic-pos)
 
 ## Tech Stack
 
