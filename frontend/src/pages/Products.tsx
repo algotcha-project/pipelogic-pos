@@ -58,6 +58,29 @@ const Breadcrumb = styled.div`
   }
 `;
 
+const PresetFiltersBar = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+`;
+
+const PresetFilter = styled.button<{ $active?: boolean }>`
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 16px;
+  border: 1px solid ${props => props.$active ? theme.colors.primary : theme.colors.border};
+  background: ${props => props.$active ? theme.colors.primaryLight : 'white'};
+  color: ${props => props.$active ? theme.colors.primary : theme.colors.textSecondary};
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover {
+    border-color: ${theme.colors.primary};
+    color: ${theme.colors.primary};
+  }
+`;
+
 const PageHeader = styled.div`
   display: flex;
   justify-content: space-between;
@@ -552,6 +575,9 @@ export default function Products() {
   const [showCategoryModal, setShowCategoryModal] = useState(false);
   const [createPanelTab, setCreatePanelTab] = useState<'product' | 'service' | 'kit'>('product');
   
+  // Preset filters (like Ainur's quick filters)
+  const [activePreset, setActivePreset] = useState<string | null>(null);
+  
   // Filter states
   const [filterPresets, setFilterPresets] = useState({
     product: true,
@@ -703,6 +729,57 @@ export default function Products() {
               </ActionButton>
             </HeaderActions>
           </PageHeader>
+
+          <PresetFiltersBar>
+            <PresetFilter
+              $active={activePreset === 'zero_cost'}
+              onClick={() => setActivePreset(activePreset === 'zero_cost' ? null : 'zero_cost')}
+            >
+              Нульова собівартість
+            </PresetFilter>
+            <PresetFilter
+              $active={activePreset === 'negative'}
+              onClick={() => setActivePreset(activePreset === 'negative' ? null : 'negative')}
+            >
+              Від'ємний залишок
+            </PresetFilter>
+            <PresetFilter
+              $active={activePreset === 'expiring'}
+              onClick={() => setActivePreset(activePreset === 'expiring' ? null : 'expiring')}
+            >
+              Термін придатності закінчується через 7 днів
+            </PresetFilter>
+            <PresetFilter
+              $active={activePreset === 'out_of_stock'}
+              onClick={() => setActivePreset(activePreset === 'out_of_stock' ? null : 'out_of_stock')}
+            >
+              Немає в наявності
+            </PresetFilter>
+            <PresetFilter
+              $active={activePreset === 'not_sold'}
+              onClick={() => setActivePreset(activePreset === 'not_sold' ? null : 'not_sold')}
+            >
+              Не продавався 3 місяці
+            </PresetFilter>
+            <PresetFilter
+              $active={activePreset === 'low_stock'}
+              onClick={() => setActivePreset(activePreset === 'low_stock' ? null : 'low_stock')}
+            >
+              Загальний залишок менше мінімуму
+            </PresetFilter>
+            <PresetFilter
+              $active={activePreset === 'expired'}
+              onClick={() => setActivePreset(activePreset === 'expired' ? null : 'expired')}
+            >
+              Термін придатності закінчився
+            </PresetFilter>
+            <PresetFilter
+              $active={activePreset === 'discounted'}
+              onClick={() => setActivePreset(activePreset === 'discounted' ? null : 'discounted')}
+            >
+              Товари зі знижкою
+            </PresetFilter>
+          </PresetFiltersBar>
 
           <FiltersBar>
             <SearchInput>
