@@ -12,6 +12,7 @@ import POS from './pages/POS';
 import Products from './pages/Products';
 import Customers from './pages/Customers';
 import Documents from './pages/Documents';
+import DocumentCreate from './pages/DocumentCreate';
 import Shifts from './pages/Shifts';
 import Stores from './pages/Stores';
 import Accounts from './pages/Accounts';
@@ -39,6 +40,7 @@ function App() {
             <Route path="/pos/products" element={<Products />} />
             <Route path="/pos/customers" element={<Customers />} />
             <Route path="/pos/documents" element={<Documents />} />
+            <Route path="/pos/documents/new" element={<DocumentCreate />} />
             <Route path="/pos/movements" element={<Documents />} />
             <Route path="/pos/money" element={<MoneyMovement />} />
             <Route path="/pos/shifts" element={<Shifts />} />

@@ -15,7 +15,7 @@ import {
   ChevronDown,
   ChevronUp,
 } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useAppSelector } from '../../hooks/useRedux';
 import { theme } from '../../styles/GlobalStyles';
 
@@ -44,8 +44,12 @@ const Logo = styled.div`
   color: #e74c3c;
 `;
 
-const CreateButton = styled.button`
+const CreateButtonWrapper = styled.div`
+  position: relative;
   margin: 16px;
+`;
+
+const CreateButton = styled.button`
   padding: 12px 20px;
   background: #f39c12;
   color: white;
@@ -54,11 +58,47 @@ const CreateButton = styled.button`
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  width: calc(100% - 32px);
+  width: 100%;
   transition: all 0.2s ease;
   
   &:hover {
     background: #e67e22;
+  }
+`;
+
+const CreateDropdown = styled.div<{ isOpen: boolean }>`
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  background: white;
+  border: 1px solid ${theme.colors.border};
+  border-radius: 6px;
+  box-shadow: ${theme.shadows.lg};
+  z-index: 300;
+  display: ${props => props.isOpen ? 'block' : 'none'};
+  overflow: hidden;
+`;
+
+const CreateDropdownItem = styled.button`
+  display: block;
+  width: 100%;
+  padding: 10px 16px;
+  background: white;
+  border: none;
+  font-size: 14px;
+  color: ${theme.colors.textPrimary};
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    background: ${theme.colors.gray100};
+    color: ${theme.colors.primary};
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid ${theme.colors.border};
   }
 `;
 
@@ -204,6 +244,17 @@ const BadgeNew = styled.span`
   margin-left: auto;
 `;
 
+const documentTypes = [
+  { id: 'sale', label: 'Продаж' },
+  { id: 'purchase', label: 'Закупівля' },
+  { id: 'return-sale', label: 'Повернення продажу' },
+  { id: 'return-purchase', label: 'Повернення закупівлі' },
+  { id: 'stocktake', label: 'Інвентаризація' },
+  { id: 'stock-adjustment', label: 'Оприбуткування' },
+  { id: 'write-off', label: 'Списання' },
+  { id: 'movement', label: 'Переміщення' },
+];
+
 export default function Sidebar() {
   const navigate = useNavigate();
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
@@ -211,6 +262,7 @@ export default function Sidebar() {
     counterparties: false,
     company: false,
   });
+  const [createDropdownOpen, setCreateDropdownOpen] = useState(false);
 
   const toggleSection = (section: string) => {
     setExpandedSections(prev => ({
@@ -219,15 +271,42 @@ export default function Sidebar() {
     }));
   };
 
+  // Close create dropdown when clicking outside
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (!target.closest('[data-create-dropdown]')) {
+        setCreateDropdownOpen(false);
+      }
+    };
+    document.addEventListener('click', handleClick);
+    return () => document.removeEventListener('click', handleClick);
+  }, []);
+
   return (
     <SidebarContainer>
       <SidebarHeader>
         <Logo>PipeLogic POS</Logo>
       </SidebarHeader>
 
-      <CreateButton onClick={() => navigate('/pos/documents/new')}>
-        Створити документ
-      </CreateButton>
+      <CreateButtonWrapper data-create-dropdown>
+        <CreateButton onClick={() => setCreateDropdownOpen(!createDropdownOpen)}>
+          Створити документ
+        </CreateButton>
+        <CreateDropdown isOpen={createDropdownOpen}>
+          {documentTypes.map(dt => (
+            <CreateDropdownItem
+              key={dt.id}
+              onClick={() => {
+                navigate(`/pos/documents/new?type=${dt.id}`);
+                setCreateDropdownOpen(false);
+              }}
+            >
+              {dt.label}
+            </CreateDropdownItem>
+          ))}
+        </CreateDropdown>
+      </CreateButtonWrapper>
 
       <NavSection>
         <NavItem to="/pos" end>
