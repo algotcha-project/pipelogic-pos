@@ -4,6 +4,7 @@ import helmet from 'helmet';
 import { createServer } from 'http';
 import { Server as SocketServer } from 'socket.io';
 import dotenv from 'dotenv';
+import path from 'path';
 
 import authRoutes from './routes/auth';
 import proxyRoutes from './routes/proxy';
@@ -36,6 +37,9 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
 app.set('io', io);
+
+// Serve static files (images)
+app.use('/images', express.static(path.join(__dirname, '../public/images')));
 
 // Health check
 app.get('/health', (_req: Request, res: Response) => {
