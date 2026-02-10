@@ -26,16 +26,13 @@ import { dataApi } from '../services/api';
 import type { Product, Store } from '../types';
 import { theme } from '../styles/GlobalStyles';
 
-// Convert Ainur CDN image URL to our backend URL
-const BACKEND_URL = import.meta.env.VITE_API_URL || 'https://ainur-pos-clone-backend-production.up.railway.app';
-const getLocalImageUrl = (originalUrl: string): string => {
-  if (!originalUrl) return '';
-  // Extract filename from Ainur CDN URL
-  // Original: https://cdn.ainurpos.com/product-images/095a5fcd-db5c-4940-9a9e-c49020a8152b.jpg
-  // Our URL: {BACKEND_URL}/images/products/095a5fcd-db5c-4940-9a9e-c49020a8152b.jpg
-  const filename = originalUrl.split('/').pop();
-  if (!filename) return originalUrl;
-  return `${BACKEND_URL}/images/products/${filename}`;
+// Get proper image URL - use Ainur CDN or construct full URL
+const getImageUrl = (imageUrl: string | undefined): string => {
+  if (!imageUrl) return '';
+  // If already a full URL, use it
+  if (imageUrl.startsWith('http')) return imageUrl;
+  // Otherwise, construct Ainur CDN URL
+  return `https://cdn.ainurpos.com/product-images/${imageUrl}`;
 };
 
 // ============================================
@@ -1104,14 +1101,12 @@ export default function Products() {
                         <ProductImage $hasImage={!!product.pic?.length}>
                           {product.pic && product.pic.length > 0 ? (
                             <img 
-                              src={getLocalImageUrl(product.pic[0])} 
-                              alt={product.name}
+                              src={getImageUrl(product.pic[0])} 
+                              alt=""
                               onError={(e) => {
-                                // Fallback to original URL if local image not found
+                                // Hide broken image, show placeholder
                                 const target = e.target as HTMLImageElement;
-                                if (!target.src.includes('cdn.ainurpos.com')) {
-                                  target.src = product.pic![0];
-                                }
+                                target.style.display = 'none';
                               }}
                             />
                           ) : (

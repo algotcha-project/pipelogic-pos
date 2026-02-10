@@ -25,6 +25,7 @@ import AccountsPage from './pages/AccountsPage';
 import EmployeesPage from './pages/EmployeesPage';
 import MoneyMovementCreate from './pages/MoneyMovementCreate';
 import Categories from './pages/Categories';
+import Integrations from './pages/Integrations';
 
 function App() {
   console.log('App component rendering...');
@@ -60,6 +61,7 @@ function App() {
             <Route path="/pos/employees" element={<EmployeesPage />} />
             <Route path="/pos/loyalty" element={<Settings />} />
             <Route path="/pos/print-forms" element={<Settings />} />
+            <Route path="/pos/integrations" element={<Integrations />} />
             <Route path="/pos/cart" element={<Settings />} />
             <Route path="/pos/whats-new" element={<Settings />} />
             <Route path="/pos/knowledge-base" element={<Settings />} />

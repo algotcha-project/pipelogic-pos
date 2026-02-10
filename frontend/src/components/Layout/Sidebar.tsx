@@ -14,7 +14,7 @@ import {
   HelpCircle,
   ChevronDown,
   ChevronUp,
-  Folder,
+  Link2,
 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useAppSelector } from '../../hooks/useRedux';
@@ -259,12 +259,6 @@ const documentTypes = [
   { id: 'movement', label: 'Переміщення' },
 ];
 
-const moneyTypes = [
-  { id: 'income', label: 'Прихід' },
-  { id: 'expense', label: 'Витрата' },
-  { id: 'transfer', label: 'Переказ' },
-];
-
 export default function Sidebar() {
   const navigate = useNavigate();
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
@@ -273,7 +267,6 @@ export default function Sidebar() {
     company: false,
   });
   const [createDropdownOpen, setCreateDropdownOpen] = useState(false);
-  const [moneyDropdownOpen, setMoneyDropdownOpen] = useState(false);
 
   const toggleSection = (section: string) => {
     setExpandedSections(prev => ({
@@ -288,9 +281,6 @@ export default function Sidebar() {
       const target = e.target as HTMLElement;
       if (!target.closest('[data-create-dropdown]')) {
         setCreateDropdownOpen(false);
-      }
-      if (!target.closest('[data-money-dropdown]')) {
-        setMoneyDropdownOpen(false);
       }
     };
     document.addEventListener('click', handleClick);
@@ -322,28 +312,6 @@ export default function Sidebar() {
         </CreateDropdown>
       </CreateButtonWrapper>
 
-      <CreateButtonWrapper data-money-dropdown style={{ marginTop: '-8px' }}>
-        <CreateButton 
-          onClick={() => setMoneyDropdownOpen(!moneyDropdownOpen)}
-          style={{ background: '#10b981' }}
-        >
-          Рух грошей
-        </CreateButton>
-        <CreateDropdown isOpen={moneyDropdownOpen}>
-          {moneyTypes.map(mt => (
-            <CreateDropdownItem
-              key={mt.id}
-              onClick={() => {
-                navigate(`/pos/money/new?type=${mt.id}`);
-                setMoneyDropdownOpen(false);
-              }}
-            >
-              {mt.label}
-            </CreateDropdownItem>
-          ))}
-        </CreateDropdown>
-      </CreateButtonWrapper>
-
       <NavSection>
         <NavItem to="/pos" end>
           <LayoutGrid size={20} />
@@ -353,11 +321,6 @@ export default function Sidebar() {
         <NavItem to="/pos/products">
           <Package size={20} />
           Товари та послуги
-        </NavItem>
-
-        <NavItem to="/pos/categories">
-          <Folder size={20} />
-          Категорії
         </NavItem>
 
         <NavButton onClick={() => toggleSection('registers')}>
@@ -408,6 +371,7 @@ export default function Sidebar() {
           <SubNavItem to="/pos/accounts">Рахунки</SubNavItem>
           <SubNavItem to="/pos/loyalty">Лояльність</SubNavItem>
           <SubNavItem to="/pos/print-forms">Друковані форми</SubNavItem>
+          <SubNavItem to="/pos/integrations">Інтеграції</SubNavItem>
         </SubNav>
         
         <NavItem to="/pos/cart" style={{ color: theme.colors.textMuted }}>

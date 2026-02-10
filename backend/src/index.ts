@@ -18,6 +18,7 @@ import sourcesRoutes from './routes/sources';
 import documentsRoutes from './routes/documents';
 import shiftsRoutes from './routes/shifts';
 import searchRoutes from './routes/search';
+import integrationsRoutes from './routes/integrations';
 
 dotenv.config();
 
@@ -64,6 +65,7 @@ app.use('/data', documentsRoutes);
 app.use('/docs', documentsRoutes);
 app.use('/search', searchRoutes);
 app.use('/shift', shiftsRoutes);
+app.use('/integrations', integrationsRoutes);
 
 // Count endpoints
 app.use('/count', catalogRoutes);
