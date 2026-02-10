@@ -1,0 +1,5 @@
+# Ignore large files
+public/images/products/
+node_modules/
+*.log
+.env
