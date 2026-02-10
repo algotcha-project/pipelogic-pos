@@ -35,12 +35,15 @@ const SidebarContainer = styled.aside`
 `;
 
 const SidebarHeader = styled.div`
-  padding: 16px 20px;
-  border-bottom: 1px solid ${theme.colors.border};
+  padding: 12px 16px;
+  background: #2c3e50;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 `;
 
 const Logo = styled.div`
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #e74c3c;
 `;
@@ -297,7 +300,7 @@ export default function Sidebar() {
   return (
     <SidebarContainer>
       <SidebarHeader>
-        <Logo>PipeLogic POS</Logo>
+        <Logo>AinurPOS</Logo>
       </SidebarHeader>
 
       <CreateButtonWrapper data-create-dropdown>

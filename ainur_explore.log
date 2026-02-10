@@ -1,0 +1,70 @@
+﻿Launching browser...
+Navigating to Ainur...
+Logging in...
+Clicked login button
+Screenshot: 02_after_login.png
+Current URL: https://web.ainur.app/
+Screenshot: 03_dashboard.png
+Page text elements: [
+  'window.APP_HASH = "14.93";',
+  'Dashboard',
+  '╨╖╨░╨║╤Ç╤ï╤é╤î',
+  'Point of sale',
+  'English',
+  'Create',
+  '╨á╤â╤ü╤ü╨║╨╕╨╣',
+  '╨ú╨║╤Ç╨░╤ù╨╜╤ü╤î╨║╨░',
+  'Azerbaijani',
+  '╥Ü╨░╨╖╨░╥¢',
+  '╨Ü╤ï╤Ç╨│╤ï╨╖╤ç╨░',
+  'OΓÇÿzbek',
+  '15',
+  'Notifications',
+  'Settings',
+  'Show popup notifications',
+  'Show number of notifications',
+  'Created order ┬½Sale order #13974┬╗',
+  '╨¢╤û╨╗╤û╨░╨╜╨░ ╨£╨╛╨┤╨╗╤û╨╜╤ü╤î╨║╨░',
+  'in',
+  'Created order ┬½Sale order #13973┬╗',
+  'Created order ┬½Sale order #16720┬╗',
+  '╨Æ╤û╨║╤é╨╛╤Ç╤û╤Å ╨ö╨╡╨▓╨╛╨╜╤û╨╜╨░',
+  'Created order ┬½Sale order #16719┬╗',
+  'Created order ┬½Sale order #16718┬╗',
+  'Created order ┬½Sale order #8198┬╗',
+  '╨Ü╨░╤é╨╡╤Ç╨╕╨╜╨░ ╨á╨░╨┤╤û╨╛╨╜╨╛╨▓╨░',
+  'Created order ┬½Sale order #8197┬╗',
+  'Created order ┬½Sale order #8196┬╗',
+  'Created order ┬½Sale order #16717┬╗',
+  'Created order ┬½Sale order #16716┬╗',
+  'Created order ┬½Sale order #8195┬╗',
+  'Created order ┬½Sale order #13972┬╗',
+  'Created order ┬½Sale order #16715┬╗',
+  'Created order ┬½Sale order #16714┬╗',
+  'Created order ┬½Sale order #8194┬╗',
+  'Load more',
+  '╨₧╨╗╨╡╨│ ╨Ü╨╕╤å╤Ä╨║',
+  'Owner',
+  'Create document',
+  'Sale order',
+  'Purchase',
+  'Return sale',
+  'Return purchase',
+  'Stocktake',
+  'Stock adjustment',
+  'Write-off',
+  'Movement',
+  'Transactions',
+  'Recieved'
+]
+Menu items found: 47
+
+Searching for document creation options...
+Found 18 elements matching: text=Create
+Found 1 elements matching: [class*="create"]
+Found 0 sidebar links
+Saved page HTML
+
+Exploration complete! Check ainur_screenshots folder.
+
+Browser will stay open for 30 seconds for manual inspection...

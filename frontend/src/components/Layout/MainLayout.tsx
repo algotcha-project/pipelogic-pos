@@ -266,11 +266,11 @@ export default function MainLayout({ children, title = 'Dashboard' }: MainLayout
           </HeaderLeft>
           <HeaderRight>
             <CashierButton onClick={() => navigate('/pos/cashier')}>
-              Інтерфейс касира
+              Point of sale
             </CashierButton>
             <LangButton>
               <Globe size={16} />
-              Українська
+              English
             </LangButton>
             <IconButton>
               <BarChart2 size={18} />
